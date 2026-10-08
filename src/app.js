@@ -56,16 +56,25 @@ async function init() {
   els.viewMine.addEventListener('click', () => setView('mine'));
   els.viewAll.addEventListener('click', () => setView('all'));
 
-  // Keep the clock honest: re-render every 30 seconds unless time is pinned for testing.
+  // Keep the clock honest: re-render every 30 seconds, and at once when the tab
+  // comes back to the front, because browsers slow timers in background tabs.
+  // Skipped when the time is pinned with ?now= for testing.
   if (!params.get('now')) {
-    setInterval(() => {
-      const next = nowInKarachi();
-      if (next.minutes !== state.now.minutes || next.date !== state.now.date) {
-        state.now = next;
-        renderSchedule();
-        renderHero();
-      }
-    }, 30_000);
+    setInterval(refreshClock, 30_000);
+    document.addEventListener('visibilitychange', () => { if (!document.hidden) refreshClock(); });
+    window.addEventListener('focus', refreshClock);
+    window.addEventListener('pageshow', refreshClock);
+  }
+}
+
+function refreshClock() {
+  if (!state.day) return;
+  const next = nowInKarachi();
+  if (next.minutes !== state.now.minutes || next.date !== state.now.date) {
+    state.now = next;
+    renderHero();
+    renderDaySelect();
+    renderSchedule();
   }
 }
 
