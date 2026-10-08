@@ -39,6 +39,8 @@
     <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
     <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
     <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8Z"/><path d="M14 3v5h5"/></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M9 21h6"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
     <symbol id="i-sparkle" viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6.3 6.3l2.1 2.1M15.6 15.6l2.1 2.1M6.3 17.7l2.1-2.1M15.6 8.4l2.1-2.1"/></symbol>
   </svg>
   <a class="skip-link" href="#schedule">Skip to the schedule</a>
@@ -52,6 +54,9 @@
       <span>SZABIST classes</span>
     </a>
     <div class="topbar-actions">
+      <button class="button button-quiet ask-link" id="assistant-open" type="button" aria-haspopup="dialog" aria-controls="assistant">
+        <svg class="icon" aria-hidden="true"><use href="#i-sparkle"/></svg><span class="ask-label">Ask</span>
+      </button>
       <a class="button button-quiet pdf-link" href="#pdfs"><svg class="icon" aria-hidden="true"><use href="#i-file"/></svg>Semester PDFs</a>
       <button class="button button-quiet" id="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
         <svg class="icon theme-icon" aria-hidden="true" focusable="false"><use class="theme-use" href="#i-auto"/></svg>
@@ -133,6 +138,49 @@
     <p>Unofficial. The data comes from the <a id="source-link" href="https://zabdesk.szabist-isb.edu.pk/ZabNoticeboard/StudentNoticeboard.aspx" rel="noopener">ZabDesk student noticeboard</a>. If anything looks wrong, trust the noticeboard.</p>
     <p id="footer-updated"></p>
   </footer>
+
+  <dialog class="sheet" id="assistant" aria-labelledby="assistant-title">
+    <div class="sheet-head">
+      <h2 class="sheet-title" id="assistant-title"><svg class="icon" aria-hidden="true"><use href="#i-sparkle"/></svg>Ask about today's classes</h2>
+      <button class="icon-button" id="assistant-close" type="button" aria-label="Close"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></button>
+    </div>
+
+    <form class="sheet-body" id="assistant-setup">
+      <p>Type or say a question like "where is my next class?" and get an answer from the day's schedule.</p>
+      <p>This uses Google's Gemini and needs your own API key. The key stays in this browser. Each question, together with the day's schedule, is sent to Google.</p>
+      <label class="field">
+        <span class="field-label">Gemini API key</span>
+        <input id="assistant-key" class="input" type="password" autocomplete="off" spellcheck="false" placeholder="AIza…">
+      </label>
+      <p class="field-help">Get a free key at <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noopener">aistudio.google.com</a>. You can revoke it there at any time.</p>
+      <p class="sheet-error" id="assistant-key-error" role="status" aria-live="polite"></p>
+      <div class="sheet-actions">
+        <button class="button" id="assistant-key-save" type="submit">Save key</button>
+      </div>
+    </form>
+
+    <div class="sheet-body sheet-chat" id="assistant-chat" hidden>
+      <ul class="transcript" id="assistant-transcript" aria-live="polite" aria-label="Conversation"></ul>
+      <div class="chips" id="assistant-suggestions" aria-label="Suggested questions"></div>
+      <p class="sheet-status" id="assistant-status" role="status" aria-live="polite"></p>
+      <form class="composer" id="assistant-form">
+        <button class="icon-button mic" id="assistant-mic" type="button" aria-label="Ask by voice">
+          <svg class="icon" aria-hidden="true"><use href="#i-mic"/></svg>
+        </button>
+        <input class="input" id="assistant-input" type="text" placeholder="Ask about a class, room or teacher" autocomplete="off" enterkeyhint="send" aria-label="Your question">
+        <button class="icon-button send" id="assistant-send" type="submit" aria-label="Send" disabled>
+          <svg class="icon" aria-hidden="true"><use href="#i-send"/></svg>
+        </button>
+      </form>
+      <div class="sheet-foot">
+        <label class="check"><input type="checkbox" id="assistant-speak"> Read replies aloud</label>
+        <span class="sheet-foot-actions">
+          <button class="link-button" id="assistant-clear" type="button">Clear chat</button>
+          <button class="link-button" id="assistant-change-key" type="button">Change key</button>
+        </span>
+      </div>
+    </div>
+  </dialog>
 
   <template id="tpl-class">
     <li class="class-row">

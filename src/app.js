@@ -1,5 +1,6 @@
 import { nowInKarachi, formatMinutes, formatRange, formatShortRange, formatDuration, statusFor, formatLongDate, formatStamp } from './time.js';
 import { loadPrefs, savePrefs, loadTheme, saveTheme } from './store.js';
+import { mountAssistant } from './assistant.js';
 
 const $ = (sel, root = document) => root.querySelector(sel);
 const params = new URLSearchParams(location.search);
@@ -27,6 +28,7 @@ init().catch(showFatal);
 
 async function init() {
   setupTheme();
+  mountAssistant(() => ({ day: state.day, prefs: state.prefs, now: state.now }));
   const [index, programs] = await Promise.all([
     fetchJson('data/index.json'),
     fetchJson('data/programs.json').catch(() => ({ programs: [] })),

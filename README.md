@@ -37,6 +37,35 @@ npm test                # run the parser tests
 Add `?now=HH:MM` to the URL to preview the page at a chosen time of day,
 for example <http://localhost:4173/?now=12:15>.
 
+## Optional assistant
+
+The "Ask" button in the top bar opens a small chat. Type or speak a question
+such as "where is my next class?" and get an answer from the day's schedule.
+
+- It uses Google's Gemini API through the browser. Each person pastes their
+  own API key, which is stored in that browser only and sent to Google with
+  each question together with the day's schedule. Nothing is stored by this
+  project. Get a key at <https://aistudio.google.com/app/apikey>.
+- Voice input uses the browser's speech recognition. Chrome and Safari support
+  it. Spoken replies use the browser's speech synthesis and are off by default.
+- The page tries `gemini-2.5-flash` first with thinking turned off, then falls
+  back to lighter models if Google reports the model as busy.
+
+Never commit an API key to this repository. The site is static, so any key in
+the code would be public.
+
+## Try it on a phone
+
+With the dev server running, open a tunnel in a second terminal:
+
+```sh
+npm run tunnel   # runs: ngrok http 4173
+```
+
+ngrok prints a public `https://…ngrok-free.app` address. Open it on the phone.
+The free plan shows a one-time "Visit Site" notice first. The address changes
+each time ngrok restarts. HTTPS is required for the microphone to work.
+
 ## Data shape
 
 Each `data/days/<date>.json` file looks like this:
