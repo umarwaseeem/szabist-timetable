@@ -391,6 +391,7 @@ function renderClass(c, status, nowMinutes, { mine, isNext }) {
   const node = els.tpl.content.firstElementChild.cloneNode(true);
   node.classList.toggle('is-now', status === 'now');
   node.classList.toggle('is-done', status === 'done');
+  node.classList.toggle('is-later', status === 'later');
   node.dataset.id = c.id;
 
   const start = $('.class-start', node);
