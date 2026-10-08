@@ -306,6 +306,7 @@ function renderSchedule() {
     details.open = filtersActive || openSlots.has(slot.id);
     const head = document.createElement('summary');
     head.className = 'slot-head';
+    head.append(svgIcon('i-chevron'));
     const name = document.createElement('h3');
     name.className = 'slot-name';
     name.textContent = slot.label;
@@ -342,7 +343,7 @@ function slotsToOpen(nowMinutes) {
 
 function renderFlatList(classes, nowMinutes, mine, { showNowLine }) {
   const ul = document.createElement('ul');
-  ul.className = 'class-list';
+  ul.className = 'class-list is-fresh';
   let nowLinePlaced = nowMinutes == null || !showNowLine;
   const firstUpcoming = nowMinutes == null ? null : classes.find((c) => statusFor(c, nowMinutes) === 'later');
   for (const c of classes) {
@@ -361,10 +362,12 @@ function nowLine(nowMinutes) {
   const li = document.createElement('li');
   li.className = 'now-line';
   li.setAttribute('aria-label', `Now, ${formatMinutes(nowMinutes)}`);
+  const dot = document.createElement('span');
+  dot.className = 'dot';
+  dot.setAttribute('aria-hidden', 'true');
   const text = document.createElement('span');
-  text.className = 'now-line-text';
   text.textContent = `Now, ${formatMinutes(nowMinutes)}`;
-  li.append(text);
+  li.append(dot, text);
   return li;
 }
 
@@ -378,43 +381,70 @@ function renderClass(c, status, nowMinutes, { mine, isNext }) {
   start.textContent = c.time.start != null ? formatMinutes(c.time.start) : (c.time.raw || 'Time not listed');
   if (c.time.start != null) start.dateTime = `${String(Math.floor(c.time.start / 60)).padStart(2, '0')}:${String(c.time.start % 60).padStart(2, '0')}`;
   $('.class-end', node).textContent = c.time.end != null ? `to ${formatMinutes(c.time.end)}` : '';
-  if (status === 'done') {
-    const sr = document.createElement('span');
-    sr.className = 'sr-only';
-    sr.textContent = ', finished';
-    $('.class-time', node).append(sr);
+
+  const state = $('.class-state', node);
+  if (status === 'now') {
+    state.classList.add('state-now');
+    $('.class-state-text', node).textContent = `Now, ends in ${formatDuration(c.time.end - nowMinutes)}`;
+  } else if (isNext) {
+    state.classList.add('state-next');
+    $('.class-state-text', node).textContent = `Next, in ${formatDuration(c.time.start - nowMinutes)}`;
+  } else {
+    state.remove();
   }
 
+  const flags = $('.class-flags', node);
+  if (c.slot === 'makeup') flags.append(tag('tag-makeup', 'Make-up'));
+  if (c.online) flags.append(tag('tag-online', 'Online', 'i-globe'));
+  if (mine && viewIsAll()) flags.append(tag('tag-mine', 'Yours'));
+  if (!flags.childElementCount) flags.remove();
+  const topline = $('.class-topline', node);
+  if (!topline.childElementCount) topline.remove();
+
   $('.class-title', node).textContent = c.course.title || 'Untitled class';
-  const code = $('.class-code', node);
   const codeBits = [c.course.code, c.course.credits ? `(${c.course.credits})` : null].filter(Boolean).join(' ');
-  if (codeBits) code.textContent = codeBits; else code.remove();
+  $('.class-code', node).textContent = codeBits;
 
-  $('.class-section', node).textContent = c.section || c.program || 'Section not listed';
-  const faculty = $('.class-faculty', node);
-  if (c.faculty) faculty.textContent = c.faculty; else faculty.remove();
-
-  const room = $('.class-room', node);
-  room.textContent = c.online ? 'Online' : c.room ? `Room ${c.room}` : 'Room not listed';
-  const campus = $('.class-campus', node);
-  if (c.campus && !c.online) campus.textContent = `${c.campus} campus`; else campus.remove();
-
-  const statusBox = $('.class-status', node);
-  const tags = [];
-  if (status === 'now') tags.push(tag('tag-now', `Now, ends in ${formatDuration(c.time.end - nowMinutes)}`));
-  else if (isNext) tags.push(tag('tag-next', `Next, in ${formatDuration(c.time.start - nowMinutes)}`));
-  if (c.slot === 'makeup') tags.push(tag('tag-makeup', 'Make-up class'));
-  if (c.online) tags.push(tag('tag-online', 'Online'));
-  if (mine && state.prefs.view === 'all') tags.push(tag('tag-mine', 'Yours'));
-  if (tags.length) statusBox.append(...tags); else statusBox.remove();
+  const room = $('.meta-room', node);
+  if (c.online) {
+    room.querySelector('use').setAttribute('href', '#i-globe');
+    room.querySelector('span').textContent = 'Online class';
+  } else {
+    room.querySelector('span').textContent = c.room ? `Room ${c.room}${c.campus ? `, ${c.campus}` : ''}` : 'Room not listed';
+  }
+  const faculty = $('.meta-faculty', node);
+  if (c.faculty) faculty.querySelector('span').textContent = c.faculty; else faculty.remove();
+  $('.meta-section span', node).textContent = c.section || c.program || 'Section not listed';
   return node;
 }
 
-function tag(cls, text) {
+function viewIsAll() { return state.prefs.view === 'all'; }
+
+function tag(cls, text, icon = null) {
   const span = document.createElement('span');
   span.className = `tag ${cls}`;
-  span.textContent = text;
+  if (icon) span.append(svgIcon(icon));
+  span.append(text);
   return span;
+}
+
+function svgIcon(id, cls = 'icon') {
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.setAttribute('class', cls);
+  svg.setAttribute('aria-hidden', 'true');
+  const use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
+  use.setAttribute('href', `#${id}`);
+  svg.append(use);
+  return svg;
+}
+
+function metaItem(icon, text, cls = '') {
+  const li = document.createElement('li');
+  li.className = `meta ${cls}`.trim();
+  const span = document.createElement('span');
+  span.textContent = text;
+  li.append(svgIcon(icon), span);
+  return li;
 }
 
 function renderResultCount(count, view) {
@@ -435,37 +465,56 @@ function renderUpNext(view, classes, nowMinutes) {
   card.className = 'up-next';
   const kicker = document.createElement('p');
   kicker.className = 'up-next-kicker';
-  const title = document.createElement('p');
+  const title = document.createElement('h3');
   title.className = 'up-next-title';
-  const detail = document.createElement('p');
-  detail.className = 'up-next-detail';
+  const meta = document.createElement('ul');
+  meta.className = 'class-meta';
+  const dot = document.createElement('span');
+  dot.className = 'dot';
+  dot.setAttribute('aria-hidden', 'true');
 
+  let c = null;
   if (running.length) {
-    const c = running[0];
-    kicker.textContent = running.length > 1 ? `Happening now (${running.length} at once)` : 'Happening now';
-    title.textContent = c.course.title;
-    detail.textContent = `${where(c)}. Ends in ${formatDuration(c.time.end - nowMinutes)}.`;
+    c = running[0];
+    card.classList.add('state-now');
+    kicker.append(dot, running.length > 1 ? `Happening now, ${running.length} at once. Ends in ${formatDuration(c.time.end - nowMinutes)}` : `Happening now, ends in ${formatDuration(c.time.end - nowMinutes)}`);
   } else if (upcoming.length) {
-    const c = upcoming[0];
-    kicker.textContent = 'Up next';
-    title.textContent = c.course.title;
-    detail.textContent = `${where(c)}. Starts in ${formatDuration(c.time.start - nowMinutes)}, at ${formatMinutes(c.time.start)}.`;
-    card.classList.add('is-calm');
+    c = upcoming[0];
+    card.classList.add('state-next');
+    kicker.append(dot, `Up next, in ${formatDuration(c.time.start - nowMinutes)}`);
   } else if (classes.length) {
-    kicker.textContent = 'All done';
-    title.textContent = 'No more classes today';
-    detail.textContent = `Your last class ended at ${formatMinutes(Math.max(...classes.map((c) => c.time.end ?? 0)))}.`;
-    card.classList.add('is-calm');
+    card.classList.add('state-done');
+    kicker.append(svgIcon('i-check'), 'All done for today');
+    title.textContent = 'No more classes';
+    meta.append(metaItem('i-clock', `Last class ended at ${formatMinutes(Math.max(...classes.map((x) => x.time.end ?? 0)))}`));
+    card.append(kicker, title, meta);
+    box.append(card);
+    return;
   } else {
     return;
   }
-  card.append(kicker, title, detail);
-  box.append(card);
-}
 
-function where(c) {
-  const place = c.online ? 'Online' : c.room ? `Room ${c.room}${c.campus ? `, ${c.campus} campus` : ''}` : 'Room not listed';
-  return c.faculty ? `${place}, with ${c.faculty}` : place;
+  title.textContent = c.course.title;
+  meta.append(metaItem('i-clock', formatRange(c.time.start, c.time.end, c.time.raw)));
+  meta.append(metaItem(c.online ? 'i-globe' : 'i-pin', c.online ? 'Online class' : c.room ? `Room ${c.room}${c.campus ? `, ${c.campus}` : ''}` : 'Room not listed', 'meta-room'));
+  if (c.faculty) meta.append(metaItem('i-user', c.faculty));
+  meta.append(metaItem('i-tag', c.section || c.program || ''));
+  card.append(kicker, title, meta);
+  if (card.classList.contains('state-now')) {
+    const progress = document.createElement('div');
+    progress.className = 'progress';
+    progress.setAttribute('role', 'progressbar');
+    const pct = Math.round(((nowMinutes - c.time.start) / (c.time.end - c.time.start)) * 100);
+    progress.setAttribute('aria-valuenow', String(pct));
+    progress.setAttribute('aria-valuemin', '0');
+    progress.setAttribute('aria-valuemax', '100');
+    progress.setAttribute('aria-label', `${pct}% of the class has passed`);
+    const bar = document.createElement('span');
+    progress.append(bar);
+    card.append(progress);
+    requestAnimationFrame(() => { bar.style.width = `${pct}%`; });
+  }
+  box.append(card);
 }
 
 function renderEmpty(view) {
@@ -515,6 +564,7 @@ function renderPdfs() {
       a.href = p.url;
       a.target = '_blank';
       a.rel = 'noopener';
+      a.append(svgIcon('i-file'));
       const nameSpan = document.createElement('span');
       nameSpan.className = 'pdf-name';
       nameSpan.textContent = p.label;
@@ -554,6 +604,7 @@ function applyTheme(theme) {
   if (theme) document.documentElement.dataset.theme = theme; else delete document.documentElement.dataset.theme;
   const label = theme === 'dark' ? 'Dark' : theme === 'light' ? 'Light' : 'Auto';
   els.themeLabel.textContent = label;
+  document.querySelector('.theme-use')?.setAttribute('href', theme === 'dark' ? '#i-moon' : theme === 'light' ? '#i-sun' : '#i-auto');
   els.themeToggle.setAttribute('aria-label', `Theme: ${label}. Switch theme`);
 }
 

@@ -33,8 +33,16 @@ glance on a phone.
 
 ## Visual system
 
-- Type: Bricolage Grotesque, one family, with the optical size axis used for
-  the large weekday. Tabular numerals for times.
+- Type: the system UI font (SF Pro on Apple devices) for body text, for a
+  native feel. Bricolage Grotesque for the large weekday and section titles.
+  Tabular numerals for times.
+- Icons: a small inline SVG sprite (clock, pin, person, tag, globe, file).
+  Each class row reads status, then title, then room, teacher and section.
+- Lists use the inset grouped style: one rounded container per slot with
+  hairline separators, a marigold strip and tint for the running class, and
+  dimmed rows for finished classes. The running class shows a progress bar.
+- Motion: one staggered reveal on load, a pulse on the "now" dot, and
+  transitions that answer taps. All of it is off under reduced motion.
 - Color: a cool grey-green paper (`#edf1ee`), deep ink (`#152228`), pine green
   for actions (`#1d5c4d`), and marigold (`#f2b33d`) reserved for "now". Dark
   theme mirrors the same roles. Theme follows the system and can be pinned.
