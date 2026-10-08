@@ -1,0 +1,204 @@
+{
+  "updatedAt": "2026-10-08T14:10:05.552Z",
+  "source": "https://szabist-isb.edu.pk/timetable-all/",
+  "programs": [
+    {
+      "key": "BBA",
+      "label": "BBA",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/BBA.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "BSAF",
+      "label": "BS(AF)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/BSAF.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "BSBA",
+      "label": "BS(Business analytics)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/BSBA.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "MBAD",
+      "label": "MBA",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/MBAD.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "MBAE",
+      "label": "MBA-Evening",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/MBAE.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "MSMS",
+      "label": "MS(MS)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/MSMS.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "MSPM",
+      "label": "MS(PM)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/MSPM.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "MSBA",
+      "label": "MS(Business Analytics)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/MSBA.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "PhDMS",
+      "label": "PhD(MS)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/PhDMS.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "BSCS",
+      "label": "BSCS",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/BSCS.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "BSSE",
+      "label": "BSSE",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/BSSE.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "BSAI",
+      "label": "BS(AI)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/BSAI.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "MSCS",
+      "label": "MS(CS)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/MSCS.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "MSDataScience",
+      "label": "MS(Data Science)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/MSDataScience.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "MSCyberSecurity",
+      "label": "MS(Cyber Security)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/MSCyberSecurity.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "LAB-CS",
+      "label": "LAB-CS",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/LAB-CS.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "PhDCS",
+      "label": "PhD(CS)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/PhDCS.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "BSSS",
+      "label": "BS (Social Sciences)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/BSSS.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "BSIR",
+      "label": "BS (IR)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/BSIR.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "BSSociology",
+      "label": "BS (Sociology)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/BSSociology.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "BSED",
+      "label": "BS (Economics w/ Data Science)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/BSED.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "BSP",
+      "label": "BS (Psychology)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/BSP.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "MSSS",
+      "label": "MS (SS)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/MSSS.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "MSIR",
+      "label": "MS (IR)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/MSIR.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "MSPSY",
+      "label": "MS (Clinical Psychology)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/MSPSY.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "MSDS",
+      "label": "MS (DS)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/MSDS.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "PhDPsychology",
+      "label": "PhD(Psychology)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/PhDPsychology.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "BSMS",
+      "label": "BS (MS)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/BSMS.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "MMS",
+      "label": "MS (Media Science)",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/MMS.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "EMBA",
+      "label": "EMBA",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/EMBA.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "MHRM",
+      "label": "MHRM",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/MHRM.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "MPM",
+      "label": "MPM",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/MPM.pdf",
+      "semester": "Fall 2026"
+    },
+    {
+      "key": "PMBA",
+      "label": "PMBA",
+      "url": "https://szabist-isb.edu.pk/wp-content/uploads/noticeboard/TimeTable/Fall2026/PMBA.pdf",
+      "semester": "Fall 2026"
+    }
+  ]
+}

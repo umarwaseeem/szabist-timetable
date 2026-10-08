@@ -1,0 +1,15 @@
+{
+  "name": "szabist-timetable",
+  "version": "0.1.0",
+  "description": "A friendly, readable view of the SZABIST Islamabad daily class schedule.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "fetch": "node scripts/fetch-schedule.mjs",
+    "fetch:programs": "node scripts/fetch-programs.mjs",
+    "test": "node --test test/",
+    "dev": "node scripts/serve.mjs"
+  },
+  "engines": { "node": ">=20" },
+  "license": "MIT"
+}

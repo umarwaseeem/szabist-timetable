@@ -1,0 +1,10 @@
+{
+  "name": "SZABIST classes today",
+  "short_name": "SZABIST classes",
+  "description": "Find your SZABIST Islamabad classes for the day.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#edf1ee",
+  "theme_color": "#1d5c4d",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

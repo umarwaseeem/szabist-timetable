@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SZABIST classes today</title>
+  <meta name="description" content="Find your SZABIST Islamabad classes for the day. Pick your sections once, then see what is on now, what is next, and where.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#edf1ee">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0e1a1c">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles.css">
+  <script>
+    // Apply the saved theme before first paint to avoid a flash.
+    try {
+      const t = localStorage.getItem('szabist-tt:theme');
+      if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+    } catch (_) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#schedule">Skip to the schedule</a>
+
+  <header class="topbar">
+    <a class="wordmark" href="./" aria-label="SZABIST classes, home">
+      <svg class="wordmark-mark" width="28" height="28" viewBox="0 0 28 28" aria-hidden="true" focusable="false">
+        <rect x="2" y="2" width="24" height="24" rx="6" fill="var(--pine)"/>
+        <path d="M8 9h12M8 14h12M8 19h7" stroke="var(--on-pine)" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+      <span>SZABIST classes</span>
+    </a>
+    <div class="topbar-actions">
+      <a class="button button-quiet pdf-link" href="#pdfs">Semester PDFs</a>
+      <button class="button button-quiet" id="theme-toggle" type="button" aria-label="Switch theme" title="Switch theme">
+        <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true" focusable="false">
+          <g class="theme-sun" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="10" cy="10" r="3.6"/><path d="M10 2.5v2M10 15.5v2M2.5 10h2M15.5 10h2M4.7 4.7l1.4 1.4M13.9 13.9l1.4 1.4M4.7 15.3l1.4-1.4M13.9 6.1l1.4-1.4"/></g>
+          <path class="theme-moon" d="M13.5 3.5a7 7 0 1 0 3 12 6 6 0 0 1-3-12Z" fill="currentColor"/>
+        </svg>
+        <span class="theme-label" id="theme-label">Theme</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero" aria-labelledby="hero-day">
+      <p class="hero-kicker" id="hero-kicker">Class schedule</p>
+      <h1 class="hero-day" id="hero-day">Loading</h1>
+      <p class="hero-date" id="hero-date"></p>
+      <p class="hero-meta" id="hero-meta" aria-live="polite"></p>
+      <div class="hero-controls">
+        <label class="field">
+          <span class="field-label">Day</span>
+          <select id="day-select" class="select" aria-describedby="day-help"></select>
+        </label>
+        <p class="field-help" id="day-help">The board publishes one day at a time. Earlier days stay here once collected.</p>
+      </div>
+    </section>
+
+    <div class="layout">
+      <aside class="rail" aria-label="Your sections and filters">
+        <section class="panel" aria-labelledby="mine-title">
+          <h2 class="panel-title" id="mine-title">Your sections</h2>
+          <p class="panel-help">Choose the sections you attend. This stays on this device only.</p>
+          <label class="field">
+            <span class="field-label">Program</span>
+            <select id="program-select" class="select">
+              <option value="">Choose a program</option>
+            </select>
+          </label>
+          <div class="chips" id="section-chips" role="group" aria-label="Sections in the chosen program"></div>
+          <div class="chosen" id="chosen-sections" aria-live="polite"></div>
+        </section>
+
+        <section class="panel" aria-labelledby="filter-title">
+          <h2 class="panel-title" id="filter-title">Find a class</h2>
+          <label class="field">
+            <span class="field-label">Search</span>
+            <input id="search" class="input" type="search" placeholder="Course, teacher, room or section" autocomplete="off" enterkeyhint="search">
+          </label>
+          <fieldset class="segmented" id="slot-filter">
+            <legend class="field-label">Slot</legend>
+          </fieldset>
+          <fieldset class="segmented" id="campus-filter">
+            <legend class="field-label">Campus</legend>
+          </fieldset>
+          <button class="button button-quiet button-small" id="clear-filters" type="button">Clear search and filters</button>
+        </section>
+      </aside>
+
+      <section class="schedule" id="schedule" aria-labelledby="schedule-title">
+        <div class="schedule-head">
+          <h2 class="schedule-title" id="schedule-title">Schedule</h2>
+          <div class="view-toggle" role="tablist" aria-label="Which classes to show">
+            <button class="view-tab" role="tab" id="view-mine" aria-selected="false" aria-controls="schedule-list" type="button">My classes</button>
+            <button class="view-tab" role="tab" id="view-all" aria-selected="true" aria-controls="schedule-list" type="button">Everyone</button>
+          </div>
+        </div>
+        <p class="result-count" id="result-count" role="status" aria-live="polite"></p>
+        <div id="up-next"></div>
+        <div id="schedule-list" role="tabpanel"></div>
+      </section>
+    </div>
+
+    <section class="pdfs" id="pdfs" aria-labelledby="pdfs-title">
+      <h2 class="section-title" id="pdfs-title">Full semester timetables</h2>
+      <p class="section-help">The university publishes one PDF per program for the whole semester. These open on the university website.</p>
+      <div id="pdf-list" class="pdf-groups"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Unofficial. The data comes from the <a id="source-link" href="https://zabdesk.szabist-isb.edu.pk/ZabNoticeboard/StudentNoticeboard.aspx" rel="noopener">ZabDesk student noticeboard</a>. If anything looks wrong, trust the noticeboard.</p>
+    <p id="footer-updated"></p>
+  </footer>
+
+  <template id="tpl-class">
+    <li class="class-row">
+      <div class="class-time">
+        <time class="class-start"></time>
+        <span class="class-end"></span>
+      </div>
+      <div class="class-body">
+        <p class="class-course"><span class="class-title"></span> <span class="class-code"></span></p>
+        <p class="class-who"><span class="class-section"></span><span class="class-faculty"></span></p>
+        <p class="class-where"><span class="class-room"></span><span class="class-campus"></span></p>
+      </div>
+      <div class="class-status"></div>
+    </li>
+  </template>
+
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "updatedAt": "2026-10-08T14:10:02.242Z",
+  "latest": "2026-10-08",
+  "days": [
+    {
+      "date": "2026-10-08",
+      "weekday": "Thursday",
+      "semester": "Fall 2026",
+      "fetchedAt": "2026-10-08T14:10:02.233Z",
+      "classes": 184,
+      "file": "days/2026-10-08.json"
+    }
+  ]
+}
