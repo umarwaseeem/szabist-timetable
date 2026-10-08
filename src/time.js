@@ -33,6 +33,19 @@ export function formatRange(start, end, raw = '') {
   return `${formatMinutes(start)} to ${formatMinutes(end)}`;
 }
 
+/** 480, 660 -> "8–11 am"; 660, 840 -> "11 am–2 pm"; 750, 840 -> "12:30–2 pm" */
+export function formatShortRange(start, end) {
+  if (start == null || end == null) return '';
+  const part = (t, withPeriod) => {
+    const h24 = Math.floor(t / 60), m = t % 60;
+    const h12 = h24 % 12 === 0 ? 12 : h24 % 12;
+    const base = m ? `${h12}:${String(m).padStart(2, '0')}` : `${h12}`;
+    return withPeriod ? `${base} ${h24 >= 12 ? 'pm' : 'am'}` : base;
+  };
+  const samePeriod = (start >= 720) === (end >= 720);
+  return `${part(start, !samePeriod)}\u2013${part(end, true)}`;
+}
+
 /** 95 -> "1 h 35 min", 40 -> "40 min" */
 export function formatDuration(minutes) {
   if (minutes < 1) return 'less than a minute';

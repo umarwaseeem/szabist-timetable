@@ -1,4 +1,4 @@
-import { nowInKarachi, formatMinutes, formatRange, formatDuration, statusFor, formatLongDate, formatStamp } from './time.js';
+import { nowInKarachi, formatMinutes, formatRange, formatShortRange, formatDuration, statusFor, formatLongDate, formatStamp } from './time.js';
 import { loadPrefs, savePrefs, loadTheme, saveTheme } from './store.js';
 
 const $ = (sel, root = document) => root.querySelector(sel);
@@ -18,7 +18,7 @@ const els = {
   daySelect: $('#day-select'), programSelect: $('#program-select'), sectionChips: $('#section-chips'),
   chosen: $('#chosen-sections'), search: $('#search'), slotFilter: $('#slot-filter'), campusFilter: $('#campus-filter'),
   clearFilters: $('#clear-filters'), viewMine: $('#view-mine'), viewAll: $('#view-all'), resultCount: $('#result-count'),
-  upNext: $('#up-next'), list: $('#schedule-list'), pdfList: $('#pdf-list'), footerUpdated: $('#footer-updated'),
+  list: $('#schedule-list'), pdfList: $('#pdf-list'), footerUpdated: $('#footer-updated'),
   themeToggle: $('#theme-toggle'), themeLabel: $('#theme-label'), sourceLink: $('#source-link'),
   tpl: $('#tpl-class'),
 };
@@ -220,7 +220,7 @@ function toggleSection(section) {
 }
 
 function renderFilterControls() {
-  const slotOptions = [{ value: 'all', label: 'All' }, ...state.day.slots.map((s) => ({ value: s.id, label: s.id === 'makeup' ? 'Make-up' : s.label }))];
+  const slotOptions = [{ value: 'all', label: 'All' }, ...state.day.slots.map((s) => ({ value: s.id, label: s.id === 'makeup' ? 'Make-up' : s.range ? `${s.label} (${formatShortRange(s.range.start, s.range.end)})` : s.label }))];
   const campuses = [...new Set(state.day.classes.map((c) => c.campus).filter(Boolean))].sort();
   const campusOptions = [{ value: 'all', label: 'All' }, ...campuses.map((c) => ({ value: c, label: c })), { value: 'online', label: 'Online' }];
   renderSegmented(els.slotFilter, 'slot', slotOptions, state.filters.slot);
@@ -239,7 +239,15 @@ function renderSegmented(fieldset, name, options, current) {
     input.value = opt.value;
     input.checked = opt.value === current;
     input.addEventListener('change', () => { state.filters[name] = opt.value; renderSchedule(); });
-    label.append(input, opt.label);
+    label.append(input);
+    const m = name === 'slot' ? opt.label.match(/^(.*?)\s*\((.+)\)$/) : null;
+    if (m) {
+      const small = document.createElement('small');
+      small.textContent = `(${m[2]})`;
+      label.append(m[1], small);
+    } else {
+      label.append(opt.label);
+    }
     wrap.append(label);
   }
   fieldset.append(wrap);
@@ -284,7 +292,6 @@ function renderSchedule() {
   const mine = new Set(state.prefs.sections);
 
   renderResultCount(classes.length, view);
-  renderUpNext(view, classes, nowMinutes);
 
   els.list.replaceChildren();
   if (classes.length === 0) {
@@ -321,9 +328,18 @@ function renderSchedule() {
     count.className = 'slot-count';
     count.textContent = `${group.length} ${group.length === 1 ? 'class' : 'classes'}`;
     head.append(count);
-    details.append(head, renderFlatList(group, nowMinutes, mine, { showNowLine: false }));
+    details.append(head, renderFlatList(group, nowMinutes, mine, { showNowLine: slotHoldsNow(slot, group, nowMinutes) }));
     els.list.append(details);
   }
+}
+
+/** True when the Now line belongs inside this slot group. */
+function slotHoldsNow(slot, group, nowMinutes) {
+  if (nowMinutes == null) return false;
+  if (slot.range) return nowMinutes >= slot.range.start && nowMinutes < slot.range.end;
+  const started = group.some((c) => c.time.start != null && c.time.start <= nowMinutes);
+  const pending = group.some((c) => c.time.start != null && c.time.start > nowMinutes);
+  return started && pending;
 }
 
 /** Which slot groups start open in the "Everyone" view: the current slot and the next one, or all slots when the day is not today. */
@@ -453,68 +469,6 @@ function renderResultCount(count, view) {
   const scope = view === 'mine' ? 'for your sections' : 'on the board';
   const noun = count === 1 ? 'class' : 'classes';
   els.resultCount.textContent = filtered ? `${count} ${noun} ${scope} match your search and filters.` : `${count} ${noun} ${scope}.`;
-}
-
-function renderUpNext(view, classes, nowMinutes) {
-  const box = els.upNext;
-  box.replaceChildren();
-  if (view !== 'mine' || nowMinutes == null) return;
-  const running = classes.filter((c) => statusFor(c, nowMinutes) === 'now');
-  const upcoming = classes.filter((c) => statusFor(c, nowMinutes) === 'later');
-  const card = document.createElement('div');
-  card.className = 'up-next';
-  const kicker = document.createElement('p');
-  kicker.className = 'up-next-kicker';
-  const title = document.createElement('h3');
-  title.className = 'up-next-title';
-  const meta = document.createElement('ul');
-  meta.className = 'class-meta';
-  const dot = document.createElement('span');
-  dot.className = 'dot';
-  dot.setAttribute('aria-hidden', 'true');
-
-  let c = null;
-  if (running.length) {
-    c = running[0];
-    card.classList.add('state-now');
-    kicker.append(dot, running.length > 1 ? `Happening now, ${running.length} at once. Ends in ${formatDuration(c.time.end - nowMinutes)}` : `Happening now, ends in ${formatDuration(c.time.end - nowMinutes)}`);
-  } else if (upcoming.length) {
-    c = upcoming[0];
-    card.classList.add('state-next');
-    kicker.append(dot, `Up next, in ${formatDuration(c.time.start - nowMinutes)}`);
-  } else if (classes.length) {
-    card.classList.add('state-done');
-    kicker.append(svgIcon('i-check'), 'All done for today');
-    title.textContent = 'No more classes';
-    meta.append(metaItem('i-clock', `Last class ended at ${formatMinutes(Math.max(...classes.map((x) => x.time.end ?? 0)))}`));
-    card.append(kicker, title, meta);
-    box.append(card);
-    return;
-  } else {
-    return;
-  }
-
-  title.textContent = c.course.title;
-  meta.append(metaItem('i-clock', formatRange(c.time.start, c.time.end, c.time.raw)));
-  meta.append(metaItem(c.online ? 'i-globe' : 'i-pin', c.online ? 'Online class' : c.room ? `Room ${c.room}${c.campus ? `, ${c.campus}` : ''}` : 'Room not listed', 'meta-room'));
-  if (c.faculty) meta.append(metaItem('i-user', c.faculty));
-  meta.append(metaItem('i-tag', c.section || c.program || ''));
-  card.append(kicker, title, meta);
-  if (card.classList.contains('state-now')) {
-    const progress = document.createElement('div');
-    progress.className = 'progress';
-    progress.setAttribute('role', 'progressbar');
-    const pct = Math.round(((nowMinutes - c.time.start) / (c.time.end - c.time.start)) * 100);
-    progress.setAttribute('aria-valuenow', String(pct));
-    progress.setAttribute('aria-valuemin', '0');
-    progress.setAttribute('aria-valuemax', '100');
-    progress.setAttribute('aria-label', `${pct}% of the class has passed`);
-    const bar = document.createElement('span');
-    progress.append(bar);
-    card.append(progress);
-    requestAnimationFrame(() => { bar.style.width = `${pct}%`; });
-  }
-  box.append(card);
 }
 
 function renderEmpty(view) {
