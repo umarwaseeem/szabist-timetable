@@ -48,9 +48,34 @@ the code would be public.
 ## How the schedule updates
 
 See the "Keeping the data current" section in the README. In short: a
-scheduled GitHub Action re-scrapes the noticeboard twice each morning and
-commits the result, so the site always shows what was last collected, not a
-live read of the university page.
+scheduled GitHub Action re-scrapes the noticeboard and commits the result,
+so the site always shows what was last collected, not a live read of the
+university page.
+
+### When does the noticeboard publish the next day?
+
+The noticeboard shows one day's table, but the "day" it shows is not always
+today. Two direct checks:
+
+- 2026-10-08, 19:10 PKT: the board still showed that same Thursday's table.
+- 2026-10-12, 22:44 PKT: the board already showed Tuesday the 13th's table,
+  a day early, even though its own "Schedule for Monday" header (which comes
+  from a different field than the table) still correctly said Monday.
+
+So the next day's board goes live sometime in the evening before, somewhere
+in that roughly three-and-a-half-hour window. The workflow currently runs
+four evening probes at 19:30, 20:30, 21:30 and 22:30 PKT to narrow this down
+for real: once `data/days/<date>.json` starts reliably appearing at the same
+probe a few days running, drop the others and keep one evening cron.
+
+To check: compare `data/index.json`'s `latest` field across consecutive runs
+in the Action logs, or run `git log --follow --format='%ai %s' -- data/days/<date>.json`
+for a given date to see which run's commit first introduced it.
+
+The parser itself does not need to change for this: it always reads the date
+from the table's own title line, not from the page's "Schedule for ..."
+header, so an early fetch is saved under the correct (tomorrow's) filename
+automatically.
 
 ## Data shape
 

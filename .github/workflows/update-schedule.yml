@@ -2,10 +2,25 @@ name: Update schedule
 
 on:
   schedule:
-    # Pakistan is UTC+5. Fetch before the first class and again mid-morning
-    # in case the board is corrected. 02:00 UTC = 07:00 PKT, 05:00 UTC = 10:00 PKT.
+    # Pakistan is UTC+5.
+    # Morning: before the first class, and again mid-morning in case the
+    # board is corrected. 02:00 UTC = 07:00 PKT, 05:00 UTC = 10:00 PKT.
     - cron: '0 2 * * *'
     - cron: '0 5 * * *'
+    # Evening probes (TEMPORARY, see note below): the university sometimes
+    # publishes the next day's board the evening before. One real check
+    # showed it was still same-day content at 19:10 PKT; another showed it
+    # had already flipped to the next day by 22:44 PKT. These four runs
+    # narrow down exactly when that happens, by watching which run first
+    # picks up tomorrow's date (compare `data/index.json`'s `latest` across
+    # consecutive runs, or `git log --follow -- data/days/<date>.json` for
+    # the date that first appeared early). Once that's clear from a few
+    # days of commits, drop this down to a single evening cron.
+    # 14:30/15:30/16:30/17:30 UTC = 19:30/20:30/21:30/22:30 PKT.
+    - cron: '30 14 * * *'
+    - cron: '30 15 * * *'
+    - cron: '30 16 * * *'
+    - cron: '30 17 * * *'
   workflow_dispatch:
 
 permissions:
@@ -35,7 +50,10 @@ jobs:
             echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          git commit -m "data: schedule for $(date -u +%F)"
+          # Use the schedule's own date, not the run's UTC date: an evening
+          # run can capture tomorrow's board before today is even over.
+          SCHEDULE_DATE=$(node -p "require('./data/index.json').latest")
+          git commit -m "data: schedule for ${SCHEDULE_DATE} (run at $(date -u +%FT%TZ))"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
       # A commit made with the default token does not trigger another
