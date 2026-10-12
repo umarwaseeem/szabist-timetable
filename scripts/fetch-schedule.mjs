@@ -21,9 +21,35 @@ async function main() {
   if (day.classes.length === 0) console.warn(`Warning: ${day.date} has no classes (holiday or empty board).`);
 
   await mkdir(DAYS_DIR, { recursive: true });
-  await writeFile(new URL(`${day.date}.json`, DAYS_DIR), JSON.stringify(day, null, 2) + '\n');
+  const dayPath = new URL(`${day.date}.json`, DAYS_DIR);
+  const previous = await readJsonIfExists(dayPath);
+  // If the actual schedule content hasn't changed since the last fetch, keep
+  // the old fetchedAt/source so the file is byte-identical and git sees no
+  // diff. Running this many times a day should not create commit noise;
+  // only a real change to the board should.
+  const unchanged = previous && contentEqual(previous, day);
+  const toWrite = unchanged ? previous : day;
+  await writeFile(dayPath, JSON.stringify(toWrite, null, 2) + '\n');
   await writeIndex();
-  console.log(`Saved ${day.classes.length} classes for ${day.weekday} ${day.date} -> data/days/${day.date}.json`);
+  console.log(
+    unchanged
+      ? `No change for ${day.weekday} ${day.date} (still ${day.classes.length} classes) -> data/days/${day.date}.json`
+      : `Saved ${day.classes.length} classes for ${day.weekday} ${day.date} -> data/days/${day.date}.json`,
+  );
+}
+
+function contentEqual(a, b) {
+  const strip = ({ fetchedAt, source, ...rest }) => rest;
+  return JSON.stringify(strip(a)) === JSON.stringify(strip(b));
+}
+
+async function readJsonIfExists(url) {
+  try {
+    return JSON.parse(await readFile(url, 'utf8'));
+  } catch (err) {
+    if (err.code === 'ENOENT') return null;
+    throw err;
+  }
 }
 
 async function fetchHtml(url) {
@@ -48,8 +74,15 @@ async function writeIndex() {
       file: `days/${file}`,
     });
   }
-  const index = { updatedAt: new Date().toISOString(), latest: days.at(-1)?.date ?? null, days };
-  await writeFile(new URL('index.json', DATA_DIR), JSON.stringify(index, null, 2) + '\n');
+  const indexPath = new URL('index.json', DATA_DIR);
+  const previous = await readJsonIfExists(indexPath);
+  const latest = days.at(-1)?.date ?? null;
+  // Same idea as the day files: only bump updatedAt when the list of days
+  // actually differs (a day's fetchedAt only changes when its content did,
+  // per the check above), so an unchanged run leaves no diff here either.
+  const unchanged = previous && previous.latest === latest && JSON.stringify(previous.days) === JSON.stringify(days);
+  const index = unchanged ? previous : { updatedAt: new Date().toISOString(), latest, days };
+  await writeFile(indexPath, JSON.stringify(index, null, 2) + '\n');
 }
 
 main().catch((err) => {
