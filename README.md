@@ -29,3 +29,7 @@ Needs Node 20 or newer. No dependencies to install.
 More detail, including the optional AI assistant, voice input, running on a
 phone over a tunnel, and the JSON data shape, is in [`docs/USAGE.md`](docs/USAGE.md).
 Design decisions are in [`docs/DESIGN.md`](docs/DESIGN.md).
+
+## Feedback
+
+Found a bug, a wrong class, or have a suggestion? Email umar.waseem@gmail.com.
