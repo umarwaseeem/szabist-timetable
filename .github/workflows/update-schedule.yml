@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   fetch:
@@ -24,10 +25,24 @@ jobs:
       - run: npm run fetch:programs
         continue-on-error: true
       - name: Commit new data
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data
-          git diff --cached --quiet && echo "No changes" && exit 0
+          if git diff --cached --quiet; then
+            echo "No changes"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           git commit -m "data: schedule for $(date -u +%F)"
           git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      # A commit made with the default token does not trigger another
+      # workflow's "push" event (GitHub's anti-recursion rule), so the Pages
+      # deploy has to be kicked off explicitly here.
+      - name: Trigger the Pages deploy
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy-pages.yml --repo "$GITHUB_REPOSITORY"
