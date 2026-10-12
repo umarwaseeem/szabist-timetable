@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>OG image source</title>
+<!--
+  Source for the social preview image (og-image.png at the repo root).
+  Render at exactly 1200x630 and screenshot, e.g. with Playwright:
+    await page.setViewportSize({ width: 1200, height: 630 });
+    await page.goto('file://.../tools/og-image.html');
+    await page.screenshot({ path: 'og-image.png' });
+  Not shipped as part of the app itself.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f2f4f2;
+    --surface: #ffffff;
+    --surface-2: #e8ece9;
+    --ink: #141f24;
+    --ink-2: #566762;
+    --ink-3: #8a9a94;
+    --line: rgba(20, 31, 36, 0.10);
+    --pine: #1d5c4d;
+    --pine-soft: #e1efe9;
+    --on-pine: #f4f7f3;
+    --marigold: #f2b33d;
+    --marigold-soft: #fff3d6;
+    --marigold-ink: #2a2000;
+    --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, system-ui, sans-serif;
+    --font-display: "Bricolage Grotesque", var(--font-body);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; width: 1200px; height: 630px; overflow: hidden;
+    background: var(--paper); color: var(--ink); font-family: var(--font-body);
+  }
+  .icon { width: 1em; height: 1em; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; vertical-align: -0.15em; }
+
+  .card {
+    position: relative; width: 1200px; height: 630px; padding: 60px 64px;
+    display: grid; grid-template-columns: 1fr 440px; column-gap: 48px; align-items: center;
+  }
+  /* soft corner wash, echoes the marigold "now" accent without copying a generic gradient hero */
+  .card::before {
+    content: ""; position: absolute; right: -120px; top: -160px; width: 520px; height: 520px;
+    border-radius: 50%; background: radial-gradient(circle at 30% 30%, var(--pine-soft), transparent 70%);
+  }
+
+  .left { position: relative; z-index: 1; }
+  .wordmark { display: flex; align-items: center; gap: 12px; font-weight: 600; font-size: 24px; letter-spacing: -0.01em; }
+  .mark { flex: none; }
+
+  .headline {
+    font-family: var(--font-display); font-weight: 700; letter-spacing: -0.03em;
+    font-size: 98px; line-height: 0.98; margin: 36px 0 22px; font-variation-settings: "opsz" 90;
+  }
+    .sub { font-size: 25px; line-height: 1.45; color: var(--ink-2); max-width: 30ch; }
+
+  .right {
+    position: relative; z-index: 1;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 24px;
+    box-shadow: 0 1px 2px rgba(20,31,36,0.05), 0 20px 50px -20px rgba(20,31,36,0.22);
+    overflow: hidden;
+  }
+  .row { display: grid; grid-template-columns: 98px 1fr; column-gap: 14px; padding: 24px 22px; position: relative; }
+  .row + .row { border-top: 1px solid var(--line); }
+  .row.now { background: var(--marigold-soft); box-shadow: inset 4px 0 0 var(--marigold); }
+  .time { font-weight: 600; font-size: 19px; white-space: nowrap; }
+  .time small { display: block; font-weight: 400; color: var(--ink-3); font-size: 13px; margin-top: 2px; white-space: nowrap; }
+  .state { display: flex; align-items: center; gap: 7px; font-size: 14px; font-weight: 600; margin-bottom: 4px; }
+  .state .dot { width: 8px; height: 8px; border-radius: 50%; background: currentColor; }
+  .state.now { color: #9a6a00; }
+  .state.next { color: var(--pine); }
+  .title { font-size: 19px; font-weight: 600; letter-spacing: -0.01em; }
+  .meta { margin-top: 6px; display: flex; gap: 16px; color: var(--ink-2); font-size: 15px; }
+  .meta span { display: inline-flex; align-items: center; gap: 6px; }
+  .meta .icon { color: var(--ink-3); }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="left">
+      <div class="wordmark">
+        <svg class="mark" width="30" height="30" viewBox="0 0 28 28" aria-hidden="true">
+          <rect x="2" y="2" width="24" height="24" rx="6" fill="#1d5c4d"/>
+          <path d="M8 9h12M8 14h12M8 19h7" stroke="#f4f7f3" stroke-width="2.4" stroke-linecap="round"/>
+        </svg>
+        <span>SZABIST classes</span>
+      </div>
+      <h1 class="headline">Know your<br>classes,<br>today.</h1>
+      <p class="sub">See what's happening now, what's next, and exactly where to go.</p>
+    </div>
+
+    <div class="right">
+      <div class="row now">
+        <div class="time">11:00 am<small>to 12:30 pm</small></div>
+        <div>
+          <div class="state now"><span class="dot"></span>Now, ends in 20 min</div>
+          <div class="title">Linear Algebra</div>
+          <div class="meta">
+            <span><svg class="icon" viewBox="0 0 24 24"><path d="M12 21s-6-5.3-6-10.5a6 6 0 0 1 12 0C18 15.7 12 21 12 21Z"/><circle cx="12" cy="10.5" r="2.2"/></svg>Room 301, H-8</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="time">12:30 pm<small>to 2:00 pm</small></div>
+        <div>
+          <div class="state next"><span class="dot"></span>Next, in 20 min</div>
+          <div class="title">Software Engineering</div>
+          <div class="meta">
+            <span><svg class="icon" viewBox="0 0 24 24"><path d="M12 21s-6-5.3-6-10.5a6 6 0 0 1 12 0C18 15.7 12 21 12 21Z"/><circle cx="12" cy="10.5" r="2.2"/></svg>Room 302, H-8</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="time">2:20 pm<small>to 5:20 pm</small></div>
+        <div>
+          <div class="title" style="color:var(--ink-2)">Database Systems</div>
+          <div class="meta">
+            <span><svg class="icon" viewBox="0 0 24 24"><path d="M12 21s-6-5.3-6-10.5a6 6 0 0 1 12 0C18 15.7 12 21 12 21Z"/><circle cx="12" cy="10.5" r="2.2"/></svg>Room NB-204, HMB</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
