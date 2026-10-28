@@ -1,0 +1,4229 @@
+{
+  "date": "2026-10-29",
+  "weekday": "Thursday",
+  "semester": "Fall 2026",
+  "title": "Class Schedule - Thursday, October 29, 2026 (Fall 2026)",
+  "fetchedAt": "2026-10-28T19:42:13.248Z",
+  "source": "https://zabdesk.szabist-isb.edu.pk/ZabNoticeboard/StudentNoticeboard.aspx",
+  "slots": [
+    {
+      "id": "1",
+      "label": "Slot 1",
+      "range": {
+        "start": 480,
+        "end": 660
+      }
+    },
+    {
+      "id": "2",
+      "label": "Slot 2",
+      "range": {
+        "start": 660,
+        "end": 840
+      }
+    },
+    {
+      "id": "3",
+      "label": "Slot 3",
+      "range": {
+        "start": 840,
+        "end": 1020
+      }
+    },
+    {
+      "id": "4",
+      "label": "Slot 4",
+      "range": {
+        "start": 1020,
+        "end": 1290
+      }
+    },
+    {
+      "id": "makeup",
+      "label": "Make-up classes",
+      "range": null
+    }
+  ],
+  "classes": [
+    {
+      "id": "1-bba-1-a-ba-1215-08-00-am-10-00-am",
+      "sr": 1,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "BBA",
+      "section": "BBA-1 A",
+      "course": {
+        "code": "BA 1215",
+        "title": "Ideology and Constitution of Pakistan",
+        "credits": null
+      },
+      "faculty": "Sadia Rasool",
+      "room": "102",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 10:00 AM",
+        "start": 480,
+        "end": 600
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bba-2-a-ba-1102-08-00-am-11-00-am",
+      "sr": 2,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "BBA",
+      "section": "BBA-2 A",
+      "course": {
+        "code": "BA 1102",
+        "title": "Microeconomics",
+        "credits": null
+      },
+      "faculty": "Samina Islam",
+      "room": "103",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bba-3-b-ba-1202-08-00-am-11-00-am",
+      "sr": 3,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "BBA",
+      "section": "BBA-3 B",
+      "course": {
+        "code": "BA 1202",
+        "title": "Macroeconomics",
+        "credits": null
+      },
+      "faculty": "Dr. Nasir Munir",
+      "room": "104",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bsba-1a-bsa-1101-08-00-am-11-00-am",
+      "sr": 4,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "BSBA",
+      "section": "BSBA-1A",
+      "course": {
+        "code": "BSA 1101",
+        "title": "English Writing Skills and OCPS",
+        "credits": "3,0"
+      },
+      "faculty": "Asif Rasool Malik",
+      "room": "105",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bsba-2a-bsa-1203-08-00-am-11-00-am",
+      "sr": 5,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "BSBA",
+      "section": "BSBA-2A",
+      "course": {
+        "code": "BSA 1203",
+        "title": "Financial Accounting",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Sanaullah Ansari",
+      "room": "201",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bsba-3a-bsa-2303-08-00-am-11-00-am",
+      "sr": 6,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "BSBA",
+      "section": "BSBA-3A",
+      "course": {
+        "code": "BSA 2303",
+        "title": "Logic, Critical Thinking and Decision Science",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Ayesha Noor",
+      "room": "NB-202",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "1-bsba-4a-bsa-2403-08-00-am-11-00-am",
+      "sr": 7,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "BSBA",
+      "section": "BSBA-4A",
+      "course": {
+        "code": "BSA 2403",
+        "title": "Data Structures and Business Applications",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Syed Shafqat Mukarram",
+      "room": "Lab 01",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-af-1-af-1112-08-00-am-10-00-am",
+      "sr": 8,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "BSAF",
+      "section": "BS(AF)-1",
+      "course": {
+        "code": "AF 1112",
+        "title": "Sociology",
+        "credits": "2,0"
+      },
+      "faculty": "Uzma Shahryar",
+      "room": "Auditorium",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 10:00 AM",
+        "start": 480,
+        "end": 600
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-af-2-af-1211-08-00-am-11-00-am",
+      "sr": 9,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "BSAF",
+      "section": "BS(AF)-2",
+      "course": {
+        "code": "AF 1211",
+        "title": "Business Management",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Fatima Ashraf",
+      "room": "204",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-af-3-af-1202-08-00-am-11-00-am",
+      "sr": 10,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "BSAF",
+      "section": "BS(AF)-3",
+      "course": {
+        "code": "AF 1202",
+        "title": "Calculus for Business Studies",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Ahmed Ali Qureshi",
+      "room": "Lab 02",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-af-4-af-1118-08-00-am-11-00-am",
+      "sr": 11,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "BSAF",
+      "section": "BS(AF)-4",
+      "course": {
+        "code": "AF 1118",
+        "title": "Environmental Science",
+        "credits": null
+      },
+      "faculty": "Dr. M. Daniel Saeed Pirzada",
+      "room": "NB-203",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "1-bs-cs-1a-cscl-1103-08-00-am-10-00-am",
+      "sr": 12,
+      "slot": "1",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-1A",
+      "course": {
+        "code": "CSCL 1103",
+        "title": "Lab: Fundamentals of Programming",
+        "credits": "0,1"
+      },
+      "faculty": "Muhammad Ishfaq",
+      "room": "Lab 03",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 10:00 AM",
+        "start": 480,
+        "end": 600
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-cs-1a-cscl-1107-10-00-am-12-00-pm",
+      "sr": 13,
+      "slot": "1",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-1A",
+      "course": {
+        "code": "CSCL 1107",
+        "title": "Lab: Applied Physics",
+        "credits": "0,1"
+      },
+      "faculty": "Muhammad Irfan",
+      "room": "Lab 03",
+      "online": false,
+      "time": {
+        "raw": "10:00 AM - 12:00 PM",
+        "start": 600,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-cs-1b-cscl-1107-08-00-am-10-00-am",
+      "sr": 14,
+      "slot": "1",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-1B",
+      "course": {
+        "code": "CSCL 1107",
+        "title": "Lab: Applied Physics",
+        "credits": "0,1"
+      },
+      "faculty": "Muhammad Irfan",
+      "room": "Lab 04",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 10:00 AM",
+        "start": 480,
+        "end": 600
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-cs-1b-cscl-1108-10-00-am-12-00-pm",
+      "sr": 15,
+      "slot": "1",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-1B",
+      "course": {
+        "code": "CSCL 1108",
+        "title": "Lab: Introduction to Computer Science",
+        "credits": "0,1"
+      },
+      "faculty": "Bushra Shafi",
+      "room": "Lab 04",
+      "online": false,
+      "time": {
+        "raw": "10:00 AM - 12:00 PM",
+        "start": 600,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-cs-2a-csc-2101-08-00-am-09-30-am",
+      "sr": 16,
+      "slot": "1",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-2A",
+      "course": {
+        "code": "CSC 2101",
+        "title": "Communication and Presentation Skills",
+        "credits": "3,0"
+      },
+      "faculty": "Sana Jaffery",
+      "room": "301",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 09:30 AM",
+        "start": 480,
+        "end": 570
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-cs-2a-csc-1207-09-30-am-10-30-am",
+      "sr": 17,
+      "slot": "1",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-2A",
+      "course": {
+        "code": "CSC 1207",
+        "title": "Digital Logic Design",
+        "credits": "2,0"
+      },
+      "faculty": "Tariq Salim",
+      "room": "301",
+      "online": false,
+      "time": {
+        "raw": "09:30 AM - 10:30 AM",
+        "start": 570,
+        "end": 630
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-cs-2b-csc-2101-08-00-am-09-30-am",
+      "sr": 18,
+      "slot": "1",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-2B",
+      "course": {
+        "code": "CSC 2101",
+        "title": "Communication and Presentation Skills",
+        "credits": "3,0"
+      },
+      "faculty": "Muhammad Adeel Ashraf",
+      "room": "302",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 09:30 AM",
+        "start": 480,
+        "end": 570
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-cs-2b-csc-1208-09-30-am-11-00-am",
+      "sr": 19,
+      "slot": "1",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-2B",
+      "course": {
+        "code": "CSC 1208",
+        "title": "Object Oriented Programming Techniques",
+        "credits": "3,0"
+      },
+      "faculty": "Ayyaz Altaf Mirza",
+      "room": "302",
+      "online": false,
+      "time": {
+        "raw": "09:30 AM - 11:00 AM",
+        "start": 570,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-cs-2c-csc-1207-08-00-am-09-00-am",
+      "sr": 20,
+      "slot": "1",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-2C",
+      "course": {
+        "code": "CSC 1207",
+        "title": "Digital Logic Design",
+        "credits": "2,0"
+      },
+      "faculty": "Tariq Salim",
+      "room": "303",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 09:00 AM",
+        "start": 480,
+        "end": 540
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-cs-2c-csc-1206-09-30-am-11-00-am",
+      "sr": 21,
+      "slot": "1",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-2C",
+      "course": {
+        "code": "CSC 1206",
+        "title": "Probability and Statistics",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Tanveer Kifayat",
+      "room": "303",
+      "online": false,
+      "time": {
+        "raw": "09:30 AM - 11:00 AM",
+        "start": 570,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-se-2b-csc-1207-08-00-am-09-00-am",
+      "sr": 22,
+      "slot": "1",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-2B",
+      "course": {
+        "code": "CSC 1207",
+        "title": "Digital Logic Design",
+        "credits": "2,0"
+      },
+      "faculty": "Maria Hamid",
+      "room": "305",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 09:00 AM",
+        "start": 480,
+        "end": 540
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-se-2b-csc-1206-09-15-am-10-45-am",
+      "sr": 23,
+      "slot": "1",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-2B",
+      "course": {
+        "code": "CSC 1206",
+        "title": "Probability and Statistics",
+        "credits": "3,0"
+      },
+      "faculty": "Malik Hafeez Akhter",
+      "room": "305",
+      "online": false,
+      "time": {
+        "raw": "09:15 AM - 10:45 AM",
+        "start": 555,
+        "end": 645
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-se-3a-csc-3109-08-00-am-09-30-am",
+      "sr": 24,
+      "slot": "1",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-3A",
+      "course": {
+        "code": "CSC 3109",
+        "title": "Software Engineering",
+        "credits": "3,0"
+      },
+      "faculty": "Tooba Abdul Qudoos Khan",
+      "room": "NB-204",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 09:30 AM",
+        "start": 480,
+        "end": 570
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "1-bs-se-3a-csc-1201-09-30-am-11-00-am",
+      "sr": 25,
+      "slot": "1",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-3A",
+      "course": {
+        "code": "CSC 1201",
+        "title": "Discrete Mathematical Structures",
+        "credits": "3,0"
+      },
+      "faculty": "Muhammad Ibne Amin",
+      "room": "NB-204",
+      "online": false,
+      "time": {
+        "raw": "09:30 AM - 11:00 AM",
+        "start": 570,
+        "end": 660
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "1-bs-se-3b-csc-2206-08-00-am-09-30-am",
+      "sr": 26,
+      "slot": "1",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-3B",
+      "course": {
+        "code": "CSC 2206",
+        "title": "Linear Algebra",
+        "credits": "3,0"
+      },
+      "faculty": "Arisha Ali",
+      "room": "NB-206",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 09:30 AM",
+        "start": 480,
+        "end": 570
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "1-bs-se-3b-csc-3109-09-30-am-11-00-am",
+      "sr": 27,
+      "slot": "1",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-3B",
+      "course": {
+        "code": "CSC 3109",
+        "title": "Software Engineering",
+        "credits": "3,0"
+      },
+      "faculty": "Tooba Abdul Qudoos Khan",
+      "room": "NB-206",
+      "online": false,
+      "time": {
+        "raw": "09:30 AM - 11:00 AM",
+        "start": 570,
+        "end": 660
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "1-bsai-1a-csc-1101-08-00-am-09-30-am",
+      "sr": 28,
+      "slot": "1",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-1A",
+      "course": {
+        "code": "CSC 1101",
+        "title": "Calculus and Analytical Geometry",
+        "credits": "3,0"
+      },
+      "faculty": "Khadija Sarfraz",
+      "room": "101",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 09:30 AM",
+        "start": 480,
+        "end": 570
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bsai-1a-csc-1102-09-30-am-11-00-am",
+      "sr": 29,
+      "slot": "1",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-1A",
+      "course": {
+        "code": "CSC 1102",
+        "title": "English Composition and Comprehension",
+        "credits": "3,0"
+      },
+      "faculty": "SANA MARIAM",
+      "room": "101",
+      "online": false,
+      "time": {
+        "raw": "09:30 AM - 11:00 AM",
+        "start": 570,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bsai-1b-csc-1101-08-00-am-09-30-am",
+      "sr": 30,
+      "slot": "1",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-1B",
+      "course": {
+        "code": "CSC 1101",
+        "title": "Calculus and Analytical Geometry",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Sadaqut Hussain",
+      "room": "306",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 09:30 AM",
+        "start": 480,
+        "end": 570
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bsai-1b-csc-1102-09-30-am-11-00-am",
+      "sr": 31,
+      "slot": "1",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-1B",
+      "course": {
+        "code": "CSC 1102",
+        "title": "English Composition and Comprehension",
+        "credits": "3,0"
+      },
+      "faculty": "Muhammad Ameer Hamza Qureshi",
+      "room": "306",
+      "online": false,
+      "time": {
+        "raw": "09:30 AM - 11:00 AM",
+        "start": 570,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bsai-2a-cscl-1208-08-00-am-10-00-am",
+      "sr": 32,
+      "slot": "1",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-2A",
+      "course": {
+        "code": "CSCL 1208",
+        "title": "Lab: Object Oriented Programming Techniques",
+        "credits": "0,1"
+      },
+      "faculty": "Zahra Khalid Butt",
+      "room": "Lab 05",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 10:00 AM",
+        "start": 480,
+        "end": 600
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bsai-2a-cscl-1207-10-00-am-12-00-pm",
+      "sr": 33,
+      "slot": "1",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-2A",
+      "course": {
+        "code": "CSCL 1207",
+        "title": "Lab: Digital Logic Design",
+        "credits": "0,1"
+      },
+      "faculty": "Kainat - javid",
+      "room": "Lab 05",
+      "online": false,
+      "time": {
+        "raw": "10:00 AM - 12:00 PM",
+        "start": 600,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bsai-2b-cscl-1208-08-00-am-10-00-am",
+      "sr": 34,
+      "slot": "1",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-2B",
+      "course": {
+        "code": "CSCL 1208",
+        "title": "Lab: Object Oriented Programming Techniques",
+        "credits": "0,1"
+      },
+      "faculty": "Saba Adnan",
+      "room": "Lab 06",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 10:00 AM",
+        "start": 480,
+        "end": 600
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bsai-2b-cscl-1207-10-00-am-12-00-pm",
+      "sr": 35,
+      "slot": "1",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-2B",
+      "course": {
+        "code": "CSCL 1207",
+        "title": "Lab: Digital Logic Design",
+        "credits": "0,1"
+      },
+      "faculty": "Raheel Ahmed",
+      "room": "Lab 06",
+      "online": false,
+      "time": {
+        "raw": "10:00 AM - 12:00 PM",
+        "start": 600,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bsai-4b-csc-2206-08-00-am-09-30-am",
+      "sr": 36,
+      "slot": "1",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-4B",
+      "course": {
+        "code": "CSC 2206",
+        "title": "Linear Algebra",
+        "credits": "3,0"
+      },
+      "faculty": "Talat Abbas",
+      "room": "NB-207",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 09:30 AM",
+        "start": 480,
+        "end": 570
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "1-bsai-4b-aic-2401-09-30-am-10-30-am",
+      "sr": 37,
+      "slot": "1",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-4B",
+      "course": {
+        "code": "AIC 2401",
+        "title": "Programming for Artificial Intelligence",
+        "credits": "2,0"
+      },
+      "faculty": "Noman Rafi",
+      "room": "NB-207",
+      "online": false,
+      "time": {
+        "raw": "09:30 AM - 10:30 AM",
+        "start": 570,
+        "end": 630
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "1-bs-ir-1-bsss-2-ir-2108-08-00-am-11-00-am",
+      "sr": 38,
+      "slot": "1",
+      "department": "Social Sciences",
+      "program": "BSIR",
+      "section": "BS IR 1 & BSSS 2 -",
+      "course": {
+        "code": "IR 2108",
+        "title": "Introduction to International Relations",
+        "credits": "0,3"
+      },
+      "faculty": "Dr. Nosherwan Adil",
+      "room": "206",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bsed-1-eds-1104-08-00-am-11-00-am",
+      "sr": 39,
+      "slot": "1",
+      "department": "Social Sciences",
+      "program": "BSED",
+      "section": "BSED 1",
+      "course": {
+        "code": "EDS 1104",
+        "title": "Principles of Microeconomics",
+        "credits": "0,3"
+      },
+      "faculty": "Dr. Syed Muhammad Usman Masood",
+      "room": "205",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-psyc-1-psy-1106-08-00-am-10-00-am",
+      "sr": 40,
+      "slot": "1",
+      "department": "Social Sciences",
+      "program": "BS Psyc",
+      "section": "BS Psyc 1",
+      "course": {
+        "code": "PSY 1106",
+        "title": "Introduction to Social Sciences",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Summaya Amra",
+      "room": "ORIC Hall",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 10:00 AM",
+        "start": 480,
+        "end": 600
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-psyc-3-psy-3105-08-00-am-11-00-am",
+      "sr": 41,
+      "slot": "1",
+      "department": "Social Sciences",
+      "program": "BS Psyc",
+      "section": "BS Psyc 3",
+      "course": {
+        "code": "PSY 3105",
+        "title": "Developmental Psychology",
+        "credits": "3,0"
+      },
+      "faculty": "Sana Mukhtar",
+      "room": "Hall 1A",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bs-psyc-2-psy-1202-08-00-am-11-00-am",
+      "sr": 42,
+      "slot": "1",
+      "department": "Social Sciences",
+      "program": "BS Psyc",
+      "section": "BS Psyc 2",
+      "course": {
+        "code": "PSY 1202",
+        "title": "Contemporary Issues in Psychology",
+        "credits": null
+      },
+      "faculty": "Dr. Muhammad Saifullah Qureshi",
+      "room": "202",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bsms-1a-md-1122-08-00-am-11-00-am",
+      "sr": 43,
+      "slot": "1",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "BSMS - 1A",
+      "course": {
+        "code": "MD 1122",
+        "title": "English for General Purposes",
+        "credits": "3,0"
+      },
+      "faculty": "Farzeen Zahra",
+      "room": "Hall 1B",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bsms-2a-md-2321-08-00-am-11-00-am",
+      "sr": 44,
+      "slot": "1",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "BSMS - 2A",
+      "course": {
+        "code": "MD 2321",
+        "title": "History and Aesthetics of Film",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Aatif Iftikhar",
+      "room": "Media Lab",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bsms-4a-md-2318-08-00-am-11-00-am",
+      "sr": 45,
+      "slot": "1",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "BSMS - 4A",
+      "course": {
+        "code": "MD 2318",
+        "title": "History of Commercial Art",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Syed Yousad Raza",
+      "room": "TV Studio",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-bsms-3a-md-1217-08-00-am-11-00-am",
+      "sr": 46,
+      "slot": "1",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "BSMS - 3A",
+      "course": {
+        "code": "MD 1217",
+        "title": "Introduction to Sound",
+        "credits": "3,0"
+      },
+      "faculty": "Aleem Raza",
+      "room": "208",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bba-1-a-ba-1109-11-00-am-02-00-pm",
+      "sr": 1,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "BBA",
+      "section": "BBA-1 A",
+      "course": {
+        "code": "BA 1109",
+        "title": "Personal Management and Communication",
+        "credits": null
+      },
+      "faculty": "Aziz Ahmad Chaudary",
+      "room": "102",
+      "online": false,
+      "time": {
+        "raw": "11:00 AM - 02:00 PM",
+        "start": 660,
+        "end": 840
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bba-2-a-ba-1204-11-00-am-02-00-pm",
+      "sr": 2,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "BBA",
+      "section": "BBA-2 A",
+      "course": {
+        "code": "BA 1204",
+        "title": "Maths for Business",
+        "credits": null
+      },
+      "faculty": "Dr. Shumaila Zeb",
+      "room": "103",
+      "online": false,
+      "time": {
+        "raw": "11:00 AM - 02:00 PM",
+        "start": 660,
+        "end": 840
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bba-3-b-ba-2303-11-10-am-02-10-pm",
+      "sr": 3,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "BBA",
+      "section": "BBA-3 B",
+      "course": {
+        "code": "BA 2303",
+        "title": "Marketing Principles",
+        "credits": null
+      },
+      "faculty": "Syed Shahwar Hussain",
+      "room": "204",
+      "online": false,
+      "time": {
+        "raw": "11:10 AM - 02:10 PM",
+        "start": 670,
+        "end": 850
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsba-1a-bsa-1107-11-10-am-01-10-pm",
+      "sr": 4,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "BSBA",
+      "section": "BSBA-1A",
+      "course": {
+        "code": "BSA 1107",
+        "title": "Sociology",
+        "credits": "2,0"
+      },
+      "faculty": "Uzma Shahryar",
+      "room": "105",
+      "online": false,
+      "time": {
+        "raw": "11:10 AM - 01:10 PM",
+        "start": 670,
+        "end": 790
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsba-2a-bsa-1206-11-10-am-02-10-pm",
+      "sr": 5,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "BSBA",
+      "section": "BSBA-2A",
+      "course": {
+        "code": "BSA 1206",
+        "title": "+ BSAL 1206 Programming for Business-I (2,0) +",
+        "credits": "0,1"
+      },
+      "faculty": "Abdul Mannan",
+      "room": "Lab 01",
+      "online": false,
+      "time": {
+        "raw": "11:10 AM - 02:10 PM",
+        "start": 670,
+        "end": 850
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsba-3a-bsa-2302-11-10-am-02-10-pm",
+      "sr": 6,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "BSBA",
+      "section": "BSBA-3A",
+      "course": {
+        "code": "BSA 2302",
+        "title": "Environmental Science and Sustainability for Business",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. M. Daniel Saeed Pirzada",
+      "room": "NB-202",
+      "online": false,
+      "time": {
+        "raw": "11:10 AM - 02:10 PM",
+        "start": 670,
+        "end": 850
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "2-bsba-5a-bsa-3506-11-10-am-02-10-pm",
+      "sr": 7,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "BSBA",
+      "section": "BSBA-5A",
+      "course": {
+        "code": "BSA 3506",
+        "title": "Marketing Management",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Zoya Wajid Satti",
+      "room": "NB-205",
+      "online": false,
+      "time": {
+        "raw": "11:10 AM - 02:10 PM",
+        "start": 670,
+        "end": 850
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "2-bsba-4a-bsa-2406-11-00-am-01-00-pm",
+      "sr": 8,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "BSBA",
+      "section": "BSBA-4A",
+      "course": {
+        "code": "BSA 2406",
+        "title": "Pakistan Studies",
+        "credits": "2,0"
+      },
+      "faculty": "Sadia Rasool",
+      "room": "201",
+      "online": false,
+      "time": {
+        "raw": "11:00 AM - 01:00 PM",
+        "start": 660,
+        "end": 780
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bs-af-1-af-1109-11-00-am-02-00-pm",
+      "sr": 9,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "BSAF",
+      "section": "BS(AF)-1",
+      "course": {
+        "code": "AF 1109",
+        "title": "English Comprehension and Oral Communication",
+        "credits": "3,0"
+      },
+      "faculty": "Taimoor Khan Mahsud",
+      "room": "Auditorium",
+      "online": false,
+      "time": {
+        "raw": "11:00 AM - 02:00 PM",
+        "start": 660,
+        "end": 840
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bs-af-2-af-1214-11-10-am-01-10-pm",
+      "sr": 10,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "BSAF",
+      "section": "BS(AF)-2",
+      "course": {
+        "code": "AF 1214",
+        "title": "Personal Management and Professional Development",
+        "credits": "2,0"
+      },
+      "faculty": "Muhammad Ali",
+      "room": "202",
+      "online": false,
+      "time": {
+        "raw": "11:10 AM - 01:10 PM",
+        "start": 670,
+        "end": 790
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bs-af-3-af-2302-11-10-am-02-10-pm",
+      "sr": 11,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "BSAF",
+      "section": "BS(AF)-3",
+      "course": {
+        "code": "AF 2302",
+        "title": "Cost Accounting",
+        "credits": "3,0"
+      },
+      "faculty": "Muhammad Ali Khan",
+      "room": "205",
+      "online": false,
+      "time": {
+        "raw": "11:10 AM - 02:10 PM",
+        "start": 670,
+        "end": 850
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bs-af-4-af-3503-11-10-am-02-10-pm",
+      "sr": 12,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "BSAF",
+      "section": "BS(AF)-4",
+      "course": {
+        "code": "AF 3503",
+        "title": "Business Ethics",
+        "credits": "3,0"
+      },
+      "faculty": "Saba . Butt",
+      "room": "NB-203",
+      "online": false,
+      "time": {
+        "raw": "11:10 AM - 02:10 PM",
+        "start": 670,
+        "end": 850
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "2-bs-cs-2a-csc-1206-10-30-am-12-00-pm",
+      "sr": 13,
+      "slot": "2",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-2A",
+      "course": {
+        "code": "CSC 1206",
+        "title": "Probability and Statistics",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Saad Malik",
+      "room": "301",
+      "online": false,
+      "time": {
+        "raw": "10:30 AM - 12:00 PM",
+        "start": 630,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bs-cs-2b-csc-1207-11-00-am-12-00-pm",
+      "sr": 14,
+      "slot": "2",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-2B",
+      "course": {
+        "code": "CSC 1207",
+        "title": "Digital Logic Design",
+        "credits": "2,0"
+      },
+      "faculty": "Tariq Salim",
+      "room": "302",
+      "online": false,
+      "time": {
+        "raw": "11:00 AM - 12:00 PM",
+        "start": 660,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bs-cs-2c-csc-2101-11-00-am-12-30-pm",
+      "sr": 15,
+      "slot": "2",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-2C",
+      "course": {
+        "code": "CSC 2101",
+        "title": "Communication and Presentation Skills",
+        "credits": "3,0"
+      },
+      "faculty": "Muhammad Adeel Ashraf",
+      "room": "303",
+      "online": false,
+      "time": {
+        "raw": "11:00 AM - 12:30 PM",
+        "start": 660,
+        "end": 750
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bs-cs-3a-csc-3215-11-00-am-12-00-pm",
+      "sr": 16,
+      "slot": "2",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-3A",
+      "course": {
+        "code": "CSC 3215",
+        "title": "Understanding of Holy Quran-II",
+        "credits": "1,0"
+      },
+      "faculty": "Raheela Yasmeen",
+      "room": "ONLINE",
+      "online": true,
+      "time": {
+        "raw": "11:00 AM - 12:00 PM",
+        "start": 660,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bs-cs-3b-csc-3215-12-00-pm-01-00-pm",
+      "sr": 17,
+      "slot": "2",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-3B",
+      "course": {
+        "code": "CSC 3215",
+        "title": "Understanding of Holy Quran-II",
+        "credits": "1,0"
+      },
+      "faculty": "Raheela Yasmeen",
+      "room": "ONLINE",
+      "online": true,
+      "time": {
+        "raw": "12:00 PM - 01:00 PM",
+        "start": 720,
+        "end": 780
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bs-cs-3c-csc-3215-01-00-pm-02-00-pm",
+      "sr": 18,
+      "slot": "2",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-3C",
+      "course": {
+        "code": "CSC 3215",
+        "title": "Understanding of Holy Quran-II",
+        "credits": "1,0"
+      },
+      "faculty": "Raheela Yasmeen",
+      "room": "ONLINE",
+      "online": true,
+      "time": {
+        "raw": "01:00 PM - 02:00 PM",
+        "start": 780,
+        "end": 840
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bs-cs-3d-csc-3215-02-00-pm-03-00-pm",
+      "sr": 19,
+      "slot": "2",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-3D",
+      "course": {
+        "code": "CSC 3215",
+        "title": "Understanding of Holy Quran-II",
+        "credits": "1,0"
+      },
+      "faculty": "Raheela Yasmeen",
+      "room": "ONLINE",
+      "online": true,
+      "time": {
+        "raw": "02:00 PM - 03:00 PM",
+        "start": 840,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bs-cs-5d-cscl-3108-12-00-pm-02-00-pm",
+      "sr": 20,
+      "slot": "2",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-5D",
+      "course": {
+        "code": "CSCL 3108",
+        "title": "Lab: Advanced Database Management Systems",
+        "credits": "0,1"
+      },
+      "faculty": "Adeel Ahmed",
+      "room": "Lab 03",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 02:00 PM",
+        "start": 720,
+        "end": 840
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bs-cs-6a-csc-3205-12-30-pm-02-00-pm",
+      "sr": 21,
+      "slot": "2",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-6A",
+      "course": {
+        "code": "CSC 3205",
+        "title": "Computer Networks and Data Communications",
+        "credits": "3,0"
+      },
+      "faculty": "Rana Faisal Hayat",
+      "room": "NB-204",
+      "online": false,
+      "time": {
+        "raw": "12:30 PM - 02:00 PM",
+        "start": 750,
+        "end": 840
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "2-bs-cs-6b-csc-4101-12-30-pm-02-00-pm",
+      "sr": 22,
+      "slot": "2",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-6B",
+      "course": {
+        "code": "CSC 4101",
+        "title": "Artificial Intelligence",
+        "credits": "3,0"
+      },
+      "faculty": "Saira Shaheen",
+      "room": "NB-206",
+      "online": false,
+      "time": {
+        "raw": "12:30 PM - 02:00 PM",
+        "start": 750,
+        "end": 840
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "2-bs-se-2b-csc-1208-11-00-am-12-30-pm",
+      "sr": 23,
+      "slot": "2",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-2B",
+      "course": {
+        "code": "CSC 1208",
+        "title": "Object Oriented Programming Techniques",
+        "credits": "3,0"
+      },
+      "faculty": "Zainab Iftikhar Chaudhary",
+      "room": "305",
+      "online": false,
+      "time": {
+        "raw": "11:00 AM - 12:30 PM",
+        "start": 660,
+        "end": 750
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bs-se-3b-csc-1201-11-00-am-12-30-pm",
+      "sr": 24,
+      "slot": "2",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-3B",
+      "course": {
+        "code": "CSC 1201",
+        "title": "Discrete Mathematical Structures",
+        "credits": "3,0"
+      },
+      "faculty": "Muhammad Ibne Amin",
+      "room": "NB-206",
+      "online": false,
+      "time": {
+        "raw": "11:00 AM - 12:30 PM",
+        "start": 660,
+        "end": 750
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "2-bs-se-4a-csc-2205-12-30-pm-01-30-pm",
+      "sr": 25,
+      "slot": "2",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-4A",
+      "course": {
+        "code": "CSC 2205",
+        "title": "Operating Systems",
+        "credits": "2,0"
+      },
+      "faculty": "Arfa Asaf",
+      "room": "301",
+      "online": false,
+      "time": {
+        "raw": "12:30 PM - 01:30 PM",
+        "start": 750,
+        "end": 810
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bs-se-4b-sec-2407-11-30-am-01-30-pm",
+      "sr": 26,
+      "slot": "2",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-4B",
+      "course": {
+        "code": "SEC 2407",
+        "title": "Software Requirement Engineering",
+        "credits": "2,0"
+      },
+      "faculty": "Tehreem Saboor",
+      "room": "Hall 1B",
+      "online": false,
+      "time": {
+        "raw": "11:30 AM - 01:30 PM",
+        "start": 690,
+        "end": 810
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsai-1a-csc-1103-11-00-am-12-30-pm",
+      "sr": 27,
+      "slot": "2",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-1A",
+      "course": {
+        "code": "CSC 1103",
+        "title": "Fundamentals of Programming",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Muhammad Imran",
+      "room": "101",
+      "online": false,
+      "time": {
+        "raw": "11:00 AM - 12:30 PM",
+        "start": 660,
+        "end": 750
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsai-1b-csc-1103-11-00-am-12-30-pm",
+      "sr": 28,
+      "slot": "2",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-1B",
+      "course": {
+        "code": "CSC 1103",
+        "title": "Fundamentals of Programming",
+        "credits": "3,0"
+      },
+      "faculty": "Hamza Imran",
+      "room": "306",
+      "online": false,
+      "time": {
+        "raw": "11:00 AM - 12:30 PM",
+        "start": 660,
+        "end": 750
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsai-3a-cscl-3206-12-00-pm-02-00-pm",
+      "sr": 29,
+      "slot": "2",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-3A",
+      "course": {
+        "code": "CSCL 3206",
+        "title": "Lab: Artificial Intelligence",
+        "credits": "0,1"
+      },
+      "faculty": "Zahra Khalid Butt",
+      "room": "Lab 04",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 02:00 PM",
+        "start": 720,
+        "end": 840
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsai-3a-csc-3206-02-00-pm-03-00-pm",
+      "sr": 30,
+      "slot": "2",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-3A",
+      "course": {
+        "code": "CSC 3206",
+        "title": "Artificial Intelligence",
+        "credits": "2,0"
+      },
+      "faculty": "Maryam Mir",
+      "room": "305",
+      "online": false,
+      "time": {
+        "raw": "02:00 PM - 03:00 PM",
+        "start": 840,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsai-3b-cscl-3206-12-00-pm-02-00-pm",
+      "sr": 31,
+      "slot": "2",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-3B",
+      "course": {
+        "code": "CSCL 3206",
+        "title": "Lab: Artificial Intelligence",
+        "credits": "0,1"
+      },
+      "faculty": "Muhammad Ibrahim Nasir",
+      "room": "Lab 05",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 02:00 PM",
+        "start": 720,
+        "end": 840
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsai-4b-aic-4802-12-30-pm-02-00-pm",
+      "sr": 32,
+      "slot": "2",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-4B",
+      "course": {
+        "code": "AIC 4802",
+        "title": "Data Mining",
+        "credits": "3,0"
+      },
+      "faculty": "Immad Ahmed",
+      "room": "NB-207",
+      "online": false,
+      "time": {
+        "raw": "12:30 PM - 02:00 PM",
+        "start": 750,
+        "end": 840
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "2-bsai-6a-csc-3109-12-30-pm-02-00-pm",
+      "sr": 33,
+      "slot": "2",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-6A",
+      "course": {
+        "code": "CSC 3109",
+        "title": "Software Engineering",
+        "credits": "3,0"
+      },
+      "faculty": "Hamza Imran",
+      "room": "101",
+      "online": false,
+      "time": {
+        "raw": "12:30 PM - 02:00 PM",
+        "start": 750,
+        "end": 840
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsai-6b-csc-3109-12-30-pm-02-00-pm",
+      "sr": 34,
+      "slot": "2",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-6B",
+      "course": {
+        "code": "CSC 3109",
+        "title": "Software Engineering",
+        "credits": "3,0"
+      },
+      "faculty": "Nisar Azim",
+      "room": "303",
+      "online": false,
+      "time": {
+        "raw": "12:30 PM - 02:00 PM",
+        "start": 750,
+        "end": 840
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsss-2-bs-psy-2-philosophy-11-00-am-02-00-pm",
+      "sr": 35,
+      "slot": "2",
+      "department": "Social Sciences",
+      "program": "BSSS",
+      "section": "BSSS 2 - BS(Psy) 2",
+      "course": {
+        "code": null,
+        "title": "Philosophy",
+        "credits": null
+      },
+      "faculty": "Dr. Muhammad Abo-Ul-Hassan Rashid",
+      "room": "206",
+      "online": false,
+      "time": {
+        "raw": "11:00 AM - 02:00 PM",
+        "start": 660,
+        "end": 840
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsss-3-bs-psyc-bsss2-ss-2318-11-10-am-02-10-pm",
+      "sr": 36,
+      "slot": "2",
+      "department": "Social Sciences",
+      "program": "BSSS",
+      "section": "BSSS 3 / BS Psyc / BSSS2",
+      "course": {
+        "code": "SS 2318",
+        "title": "Mathematics and Statistics",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Syed Aziz Rasool",
+      "room": "Hall 1A",
+      "online": false,
+      "time": {
+        "raw": "11:10 AM - 02:10 PM",
+        "start": 670,
+        "end": 850
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsss-4-bs-psyc-bsss4-ss-2410-11-10-am-02-10-pm",
+      "sr": 37,
+      "slot": "2",
+      "department": "Social Sciences",
+      "program": "BSSS",
+      "section": "BSSS 4 / BS Psyc / BSSS4",
+      "course": {
+        "code": "SS 2410",
+        "title": "Entrepreneurship",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Rashida Qureshi",
+      "room": "ORIC Hall",
+      "online": false,
+      "time": {
+        "raw": "11:10 AM - 02:10 PM",
+        "start": 670,
+        "end": 850
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsir-psy-1103-11-10-am-02-10-pm",
+      "sr": 38,
+      "slot": "2",
+      "department": "Social Sciences",
+      "program": "BSIR",
+      "section": "BSIR",
+      "course": {
+        "code": "PSY 1103",
+        "title": "English for General Purposes",
+        "credits": null
+      },
+      "faculty": "Dr. Huma Maqsood",
+      "room": "104",
+      "online": false,
+      "time": {
+        "raw": "11:10 AM - 02:10 PM",
+        "start": 670,
+        "end": 850
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bs-psyc-1-psy-1103-11-10-am-02-10-pm",
+      "sr": 39,
+      "slot": "2",
+      "department": "Social Sciences",
+      "program": "BS Psyc",
+      "section": "BS Psyc 1",
+      "course": {
+        "code": "PSY 1103",
+        "title": "English for General Purposes",
+        "credits": null
+      },
+      "faculty": "Dr. Summaya Amra",
+      "room": "203",
+      "online": false,
+      "time": {
+        "raw": "11:10 AM - 02:10 PM",
+        "start": 670,
+        "end": 850
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsms-1a-md-te05-ai-powered-media-industries-11-10-am-02-10-pm",
+      "sr": 40,
+      "slot": "2",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "BSMS - 1A",
+      "course": {
+        "code": null,
+        "title": "MD TE05 AI-Powered Media Industries",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Wajid Zulqarnain",
+      "room": "Media Lab",
+      "online": false,
+      "time": {
+        "raw": "11:10 AM - 02:10 PM",
+        "start": 670,
+        "end": 850
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsms-2a-english-for-academic-purposes-11-00-am-02-00-pm",
+      "sr": 41,
+      "slot": "2",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "BSMS - 2A",
+      "course": {
+        "code": null,
+        "title": "English for Academic Purposes",
+        "credits": "3,0"
+      },
+      "faculty": "Sonia Javed Mohammad",
+      "room": "Digital Lab",
+      "online": false,
+      "time": {
+        "raw": "11:00 AM - 02:00 PM",
+        "start": 660,
+        "end": 840
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsms-3a-md-2428-11-10-am-02-10-pm",
+      "sr": 42,
+      "slot": "2",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "BSMS - 3A",
+      "course": {
+        "code": "MD 2428",
+        "title": "Introduction to Advertising Strategy",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Amrat Haq",
+      "room": "208",
+      "online": false,
+      "time": {
+        "raw": "11:10 AM - 02:10 PM",
+        "start": 670,
+        "end": 850
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-advertising-major-md-4833-11-10-am-02-10-pm",
+      "sr": 43,
+      "slot": "2",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "Advertising Major",
+      "course": {
+        "code": "MD 4833",
+        "title": "Brand Management",
+        "credits": "3,0"
+      },
+      "faculty": "Amna Zareef",
+      "room": "MCR",
+      "online": false,
+      "time": {
+        "raw": "11:10 AM - 02:10 PM",
+        "start": 670,
+        "end": 850
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-bsms-5b-md-2423-11-10-am-02-10-pm",
+      "sr": 44,
+      "slot": "2",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "BSMS - 5B",
+      "course": {
+        "code": "MD 2423",
+        "title": "Theatre Project",
+        "credits": "3,0"
+      },
+      "faculty": "Zainab Zia Dar",
+      "room": "TV Studio",
+      "online": false,
+      "time": {
+        "raw": "11:10 AM - 02:10 PM",
+        "start": 670,
+        "end": 850
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-film-television-production-major-md-4867-11-10-am-02-10-pm",
+      "sr": 45,
+      "slot": "2",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "Film & Television Production Major",
+      "course": {
+        "code": "MD 4867",
+        "title": "Topics in Film and Television",
+        "credits": "3,0"
+      },
+      "faculty": "Azra Parveen",
+      "room": "FM Radio",
+      "online": false,
+      "time": {
+        "raw": "11:10 AM - 02:10 PM",
+        "start": 670,
+        "end": 850
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bba-4-a-ba-2311-02-20-pm-05-20-pm",
+      "sr": 1,
+      "slot": "3",
+      "department": "Management Sciences",
+      "program": "BBA",
+      "section": "BBA-4 A",
+      "course": {
+        "code": "BA 2311",
+        "title": "Business Statistics",
+        "credits": null
+      },
+      "faculty": "Samina Islam",
+      "room": "105",
+      "online": false,
+      "time": {
+        "raw": "02:20 PM - 05:20 PM",
+        "start": 860,
+        "end": 1040
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bba-5-a-ba-2301-02-20-pm-05-20-pm",
+      "sr": 2,
+      "slot": "3",
+      "department": "Management Sciences",
+      "program": "BBA",
+      "section": "BBA-5 A",
+      "course": {
+        "code": "BA 2301",
+        "title": "Introduction to Business Finance",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Shumaila Zeb",
+      "room": "103",
+      "online": false,
+      "time": {
+        "raw": "02:20 PM - 05:20 PM",
+        "start": 860,
+        "end": 1040
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bba-6-a-ba-3607-02-20-pm-05-20-pm",
+      "sr": 3,
+      "slot": "3",
+      "department": "Management Sciences",
+      "program": "BBA",
+      "section": "BBA-6 A",
+      "course": {
+        "code": "BA 3607",
+        "title": "Operations Management",
+        "credits": null
+      },
+      "faculty": "Dr. M. Daniel Saeed Pirzada",
+      "room": "NB-201",
+      "online": false,
+      "time": {
+        "raw": "02:20 PM - 05:20 PM",
+        "start": 860,
+        "end": 1040
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "3-bba-8-a-ba-4704-02-20-pm-05-20-pm",
+      "sr": 4,
+      "slot": "3",
+      "department": "Management Sciences",
+      "program": "BBA",
+      "section": "BBA-8 A",
+      "course": {
+        "code": "BA 4704",
+        "title": "Management Information System",
+        "credits": null
+      },
+      "faculty": "Malik Aizaz Ahmad",
+      "room": "Lab 01",
+      "online": false,
+      "time": {
+        "raw": "02:20 PM - 05:20 PM",
+        "start": 860,
+        "end": 1040
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bsba-5a-bsa-3502-02-20-pm-05-20-pm",
+      "sr": 5,
+      "slot": "3",
+      "department": "Management Sciences",
+      "program": "BSBA",
+      "section": "BSBA-5A",
+      "course": {
+        "code": "BSA 3502",
+        "title": "Business Ethics",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Fuwad Bashir Awan",
+      "room": "NB-202",
+      "online": false,
+      "time": {
+        "raw": "02:20 PM - 05:20 PM",
+        "start": 860,
+        "end": 1040
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "3-bs-af-5-af-3507-02-20-pm-05-20-pm",
+      "sr": 6,
+      "slot": "3",
+      "department": "Management Sciences",
+      "program": "BSAF",
+      "section": "BS(AF)-5",
+      "course": {
+        "code": "AF 3507",
+        "title": "Financial Institutes and Markets",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Sanaullah Ansari",
+      "room": "104",
+      "online": false,
+      "time": {
+        "raw": "02:20 PM - 05:20 PM",
+        "start": 860,
+        "end": 1040
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bs-af-6-af-4701-02-20-pm-05-20-pm",
+      "sr": 7,
+      "slot": "3",
+      "department": "Management Sciences",
+      "program": "BSAF",
+      "section": "BS(AF)-6",
+      "course": {
+        "code": "AF 4701",
+        "title": "Business and Labor Law",
+        "credits": "3,0"
+      },
+      "faculty": "Babar Ejaz",
+      "room": "NB-203",
+      "online": false,
+      "time": {
+        "raw": "02:20 PM - 05:20 PM",
+        "start": 860,
+        "end": 1040
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "3-bs-af-7-af-4711-02-20-pm-05-20-pm",
+      "sr": 8,
+      "slot": "3",
+      "department": "Management Sciences",
+      "program": "BSAF",
+      "section": "BS(AF)-7",
+      "course": {
+        "code": "AF 4711",
+        "title": "e-Commerce and MIS",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Muhammad Shafiq",
+      "room": "Lab 02",
+      "online": false,
+      "time": {
+        "raw": "02:20 PM - 05:20 PM",
+        "start": 860,
+        "end": 1040
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bs-cs-5d-cscl-2205-02-00-pm-04-00-pm",
+      "sr": 9,
+      "slot": "3",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-5D",
+      "course": {
+        "code": "CSCL 2205",
+        "title": "Lab: Operating Systems",
+        "credits": "0,1"
+      },
+      "faculty": "Ammad Noor",
+      "room": "Lab 04",
+      "online": false,
+      "time": {
+        "raw": "02:00 PM - 04:00 PM",
+        "start": 840,
+        "end": 960
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bs-cs-5e-cscl-3108-02-00-pm-04-00-pm",
+      "sr": 10,
+      "slot": "3",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-5E",
+      "course": {
+        "code": "CSCL 3108",
+        "title": "Lab: Advanced Database Management Systems",
+        "credits": "0,1"
+      },
+      "faculty": "Adeel Ahmed",
+      "room": "Lab 05",
+      "online": false,
+      "time": {
+        "raw": "02:00 PM - 04:00 PM",
+        "start": 840,
+        "end": 960
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bs-cs-6a-csc-1205-02-00-pm-03-30-pm",
+      "sr": 11,
+      "slot": "3",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-6A",
+      "course": {
+        "code": "CSC 1205",
+        "title": "Technical and Business Writing",
+        "credits": "3,0"
+      },
+      "faculty": "Aneela Kanwal",
+      "room": "NB-210",
+      "online": false,
+      "time": {
+        "raw": "02:00 PM - 03:30 PM",
+        "start": 840,
+        "end": 930
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "3-bs-cs-6a-csc-4802-03-30-pm-05-00-pm",
+      "sr": 12,
+      "slot": "3",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-6A",
+      "course": {
+        "code": "CSC 4802",
+        "title": "Android Application Development",
+        "credits": "3,0"
+      },
+      "faculty": "Zubair Ahmed Chatta",
+      "room": "Cancelled 29-10-2026",
+      "online": false,
+      "time": {
+        "raw": "03:30 PM - 05:00 PM",
+        "start": 930,
+        "end": 1020
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "3-bs-cs-6b-csc-4802-02-00-pm-03-30-pm",
+      "sr": 13,
+      "slot": "3",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-6B",
+      "course": {
+        "code": "CSC 4802",
+        "title": "Android Application Development",
+        "credits": "3,0"
+      },
+      "faculty": "Zubair Ahmed Chatta",
+      "room": "Cancelled 29-10-2026",
+      "online": false,
+      "time": {
+        "raw": "02:00 PM - 03:30 PM",
+        "start": 840,
+        "end": 930
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "3-bs-cs-6b-csc-1205-03-30-pm-05-00-pm",
+      "sr": 14,
+      "slot": "3",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-6B",
+      "course": {
+        "code": "CSC 1205",
+        "title": "Technical and Business Writing",
+        "credits": "3,0"
+      },
+      "faculty": "Aneela Kanwal",
+      "room": "NB-210",
+      "online": false,
+      "time": {
+        "raw": "03:30 PM - 05:00 PM",
+        "start": 930,
+        "end": 1020
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "3-bs-se-4a-sec-2407-01-30-pm-02-30-pm",
+      "sr": 15,
+      "slot": "3",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-4A",
+      "course": {
+        "code": "SEC 2407",
+        "title": "Software Requirement Engineering",
+        "credits": "2,0"
+      },
+      "faculty": "Iqra Yasmin",
+      "room": "301",
+      "online": false,
+      "time": {
+        "raw": "01:30 PM - 02:30 PM",
+        "start": 810,
+        "end": 870
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bs-se-4a-sec-2406-02-30-pm-04-00-pm",
+      "sr": 16,
+      "slot": "3",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-4A",
+      "course": {
+        "code": "SEC 2406",
+        "title": "Software Design and Architecture",
+        "credits": "3,0"
+      },
+      "faculty": "Ghaffar Ahmed",
+      "room": "301",
+      "online": false,
+      "time": {
+        "raw": "02:30 PM - 04:00 PM",
+        "start": 870,
+        "end": 960
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bs-se-4a-secl-2407-04-00-pm-06-00-pm",
+      "sr": 17,
+      "slot": "3",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-4A",
+      "course": {
+        "code": "SECL 2407",
+        "title": "Lab: Software Requirement Engineering",
+        "credits": "0,1"
+      },
+      "faculty": "Kinza Mazhar",
+      "room": "Lab 05",
+      "online": false,
+      "time": {
+        "raw": "04:00 PM - 06:00 PM",
+        "start": 960,
+        "end": 1080
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bs-se-4b-csc-2205-01-30-pm-02-30-pm",
+      "sr": 18,
+      "slot": "3",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-4B",
+      "course": {
+        "code": "CSC 2205",
+        "title": "Operating Systems",
+        "credits": "2,0"
+      },
+      "faculty": "Arfa Asaf",
+      "room": "302",
+      "online": false,
+      "time": {
+        "raw": "01:30 PM - 02:30 PM",
+        "start": 810,
+        "end": 870
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bs-se-4b-secl-2407-04-00-pm-06-00-pm",
+      "sr": 19,
+      "slot": "3",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-4B",
+      "course": {
+        "code": "SECL 2407",
+        "title": "Lab: Software Requirement Engineering",
+        "credits": "0,1"
+      },
+      "faculty": "Jawad Naseer",
+      "room": "Lab 06",
+      "online": false,
+      "time": {
+        "raw": "04:00 PM - 06:00 PM",
+        "start": 960,
+        "end": 1080
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bs-se-4c-csc-2203-02-00-pm-03-30-pm",
+      "sr": 20,
+      "slot": "3",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-4C",
+      "course": {
+        "code": "CSC 2203",
+        "title": "Database Systems",
+        "credits": "3,0"
+      },
+      "faculty": "Haroon Siddique",
+      "room": "201",
+      "online": false,
+      "time": {
+        "raw": "02:00 PM - 03:30 PM",
+        "start": 840,
+        "end": 930
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bs-se-6a-sec-3617-02-00-pm-03-30-pm",
+      "sr": 21,
+      "slot": "3",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-6A",
+      "course": {
+        "code": "SEC 3617",
+        "title": "Information Security",
+        "credits": "3,0"
+      },
+      "faculty": "Sheikh Abdul Wahab",
+      "room": "101",
+      "online": false,
+      "time": {
+        "raw": "02:00 PM - 03:30 PM",
+        "start": 840,
+        "end": 930
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bs-se-7a-sec-3603-02-00-pm-03-30-pm",
+      "sr": 22,
+      "slot": "3",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-7A",
+      "course": {
+        "code": "SEC 3603",
+        "title": "Software Project Management",
+        "credits": "3,0"
+      },
+      "faculty": "Muhammad Qasim",
+      "room": "202",
+      "online": false,
+      "time": {
+        "raw": "02:00 PM - 03:30 PM",
+        "start": 840,
+        "end": 930
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bs-se-7a-sec-3606-03-30-pm-05-00-pm",
+      "sr": 23,
+      "slot": "3",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-7A",
+      "course": {
+        "code": "SEC 3606",
+        "title": "Software Re-Engineering",
+        "credits": "3,0"
+      },
+      "faculty": "Awais Mahmood",
+      "room": "202",
+      "online": false,
+      "time": {
+        "raw": "03:30 PM - 05:00 PM",
+        "start": 930,
+        "end": 1020
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bsai-3a-csc-3105-03-00-pm-04-00-pm",
+      "sr": 24,
+      "slot": "3",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-3A",
+      "course": {
+        "code": "CSC 3105",
+        "title": "Computer Organization and Assembly Language",
+        "credits": "2,0"
+      },
+      "faculty": "Saad Irfan khan",
+      "room": "305",
+      "online": false,
+      "time": {
+        "raw": "03:00 PM - 04:00 PM",
+        "start": 900,
+        "end": 960
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bsai-3a-cscl-2102-04-00-pm-06-00-pm",
+      "sr": 25,
+      "slot": "3",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-3A",
+      "course": {
+        "code": "CSCL 2102",
+        "title": "Lab: Data Structures and Algorithms",
+        "credits": "0,1"
+      },
+      "faculty": "Muhammad WAQAS",
+      "room": "Lab 03",
+      "online": false,
+      "time": {
+        "raw": "04:00 PM - 06:00 PM",
+        "start": 960,
+        "end": 1080
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bsai-3b-cscl-2102-02-00-pm-04-00-pm",
+      "sr": 26,
+      "slot": "3",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-3B",
+      "course": {
+        "code": "CSCL 2102",
+        "title": "Lab: Data Structures and Algorithms",
+        "credits": "0,1"
+      },
+      "faculty": "Muhammad Waleed",
+      "room": "Lab 03",
+      "online": false,
+      "time": {
+        "raw": "02:00 PM - 04:00 PM",
+        "start": 840,
+        "end": 960
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bsai-3b-csc-3206-04-00-pm-05-00-pm",
+      "sr": 27,
+      "slot": "3",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-3B",
+      "course": {
+        "code": "CSC 3206",
+        "title": "Artificial Intelligence",
+        "credits": "2,0"
+      },
+      "faculty": "Khurram Shahzad",
+      "room": "301",
+      "online": false,
+      "time": {
+        "raw": "04:00 PM - 05:00 PM",
+        "start": 960,
+        "end": 1020
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bsai-3b-csc-2102-05-00-pm-06-30-pm",
+      "sr": 28,
+      "slot": "3",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-3B",
+      "course": {
+        "code": "CSC 2102",
+        "title": "Data Structures and Algorithms",
+        "credits": "3,0"
+      },
+      "faculty": "Aniqa .",
+      "room": "301",
+      "online": false,
+      "time": {
+        "raw": "05:00 PM - 06:30 PM",
+        "start": 1020,
+        "end": 1110
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bsai-6a-aic-3603-02-00-pm-03-30-pm",
+      "sr": 29,
+      "slot": "3",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-6A",
+      "course": {
+        "code": "AIC 3603",
+        "title": "Natural Language Processing",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Danish Mahmood",
+      "room": "303",
+      "online": false,
+      "time": {
+        "raw": "02:00 PM - 03:30 PM",
+        "start": 840,
+        "end": 930
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bsai-6a-aic-3602-03-30-pm-04-30-pm",
+      "sr": 30,
+      "slot": "3",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-6A",
+      "course": {
+        "code": "AIC 3602",
+        "title": "Computing Vision",
+        "credits": "2,0"
+      },
+      "faculty": "Tooba Abdul Qudoos Khan",
+      "room": "303",
+      "online": false,
+      "time": {
+        "raw": "03:30 PM - 04:30 PM",
+        "start": 930,
+        "end": 990
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bsai-6b-aic-4503-02-00-pm-03-30-pm",
+      "sr": 31,
+      "slot": "3",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-6B",
+      "course": {
+        "code": "AIC 4503",
+        "title": "Introduction to Accounting",
+        "credits": "3,0"
+      },
+      "faculty": "Syed Haris Azam",
+      "room": "203",
+      "online": false,
+      "time": {
+        "raw": "02:00 PM - 03:30 PM",
+        "start": 840,
+        "end": 930
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bsai-6b-aic-3603-03-30-pm-05-00-pm",
+      "sr": 32,
+      "slot": "3",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-6B",
+      "course": {
+        "code": "AIC 3603",
+        "title": "Natural Language Processing",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Ghulam Mustafa",
+      "room": "203",
+      "online": false,
+      "time": {
+        "raw": "03:30 PM - 05:00 PM",
+        "start": 930,
+        "end": 1020
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bsss-7-bs-psyc-bsss4-ss-2411-02-00-pm-05-00-pm",
+      "sr": 33,
+      "slot": "3",
+      "department": "Social Sciences",
+      "program": "BSSS",
+      "section": "BSSS 7 / BS Psyc / BSSS4",
+      "course": {
+        "code": "SS 2411",
+        "title": "Environmental Studies / BSSS 7 PSY 2403 Ecology",
+        "credits": null
+      },
+      "faculty": "Dr. Muhammad Abo-Ul-Hassan Rashid",
+      "room": "206",
+      "online": false,
+      "time": {
+        "raw": "02:00 PM - 05:00 PM",
+        "start": 840,
+        "end": 1020
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bsms-3b-md-1217-02-20-pm-05-20-pm",
+      "sr": 34,
+      "slot": "3",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "BSMS - 3B",
+      "course": {
+        "code": "MD 1217",
+        "title": "Introduction to Sound",
+        "credits": "3,0"
+      },
+      "faculty": "Aleem Raza",
+      "room": "Media Lab",
+      "online": false,
+      "time": {
+        "raw": "02:20 PM - 05:20 PM",
+        "start": 860,
+        "end": 1040
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-advertising-major-md-4736-02-20-pm-05-20-pm",
+      "sr": 35,
+      "slot": "3",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "Advertising Major",
+      "course": {
+        "code": "MD 4736",
+        "title": "Integrated Marketing Communications",
+        "credits": "3,0"
+      },
+      "faculty": "Abeerah Mehreen",
+      "room": "208",
+      "online": false,
+      "time": {
+        "raw": "02:20 PM - 05:20 PM",
+        "start": 860,
+        "end": 1040
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-bsms-5b-radio-programming-and-production-02-20-pm-05-20-pm",
+      "sr": 36,
+      "slot": "3",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "BSMS - 5B",
+      "course": {
+        "code": null,
+        "title": "Radio Programming and Production",
+        "credits": "3,0"
+      },
+      "faculty": "Asma Javaid",
+      "room": "TV Studio",
+      "online": false,
+      "time": {
+        "raw": "02:20 PM - 05:20 PM",
+        "start": 860,
+        "end": 1040
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-game-design-major-md-4904-02-20-pm-05-20-pm",
+      "sr": 37,
+      "slot": "3",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "Game Design Major",
+      "course": {
+        "code": "MD 4904",
+        "title": "Concept Art for Game Environment Design-I",
+        "credits": "3,0"
+      },
+      "faculty": "Attar Habib",
+      "room": "204",
+      "online": false,
+      "time": {
+        "raw": "02:20 PM - 05:20 PM",
+        "start": 860,
+        "end": 1040
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bba-4-a-ba-3502-05-30-pm-08-30-pm",
+      "sr": 1,
+      "slot": "4",
+      "department": "Management Sciences",
+      "program": "BBA",
+      "section": "BBA-4 A",
+      "course": {
+        "code": "BA 3502",
+        "title": "Entrepreneurship",
+        "credits": null
+      },
+      "faculty": "Saba Butt",
+      "room": "204",
+      "online": false,
+      "time": {
+        "raw": "05:30 PM - 08:30 PM",
+        "start": 1050,
+        "end": 1230
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bba-5-a-ba-3508-05-30-pm-08-30-pm",
+      "sr": 2,
+      "slot": "4",
+      "department": "Management Sciences",
+      "program": "BBA",
+      "section": "BBA-5 A",
+      "course": {
+        "code": "BA 3508",
+        "title": "Media Management",
+        "credits": null
+      },
+      "faculty": "Syed Shahwar Hussain",
+      "room": "103",
+      "online": false,
+      "time": {
+        "raw": "05:30 PM - 08:30 PM",
+        "start": 1050,
+        "end": 1230
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bba-6-a-ba-3603-05-30-pm-08-30-pm",
+      "sr": 3,
+      "slot": "4",
+      "department": "Management Sciences",
+      "program": "BBA",
+      "section": "BBA-6 A",
+      "course": {
+        "code": "BA 3603",
+        "title": "Business Research Methods",
+        "credits": null
+      },
+      "faculty": "Dr. Fuwad Bashir Awan",
+      "room": "NB-201",
+      "online": false,
+      "time": {
+        "raw": "05:30 PM - 08:30 PM",
+        "start": 1050,
+        "end": 1230
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "4-bba-7-a-ba-4701-05-30-pm-08-30-pm",
+      "sr": 4,
+      "slot": "4",
+      "department": "Management Sciences",
+      "program": "BBA",
+      "section": "BBA-7 A",
+      "course": {
+        "code": "BA 4701",
+        "title": "Islamic Banking and Finance",
+        "credits": null
+      },
+      "faculty": "Dr. Asma Arshad",
+      "room": "NB-202",
+      "online": false,
+      "time": {
+        "raw": "05:30 PM - 08:30 PM",
+        "start": 1050,
+        "end": 1230
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "4-bs-af-5-af-3511-05-30-pm-08-30-pm",
+      "sr": 5,
+      "slot": "4",
+      "department": "Management Sciences",
+      "program": "BSAF",
+      "section": "BS(AF)-5",
+      "course": {
+        "code": "AF 3511",
+        "title": "Auditing-I",
+        "credits": "3,0"
+      },
+      "faculty": "Muhammad Ali Khan",
+      "room": "Lab 01",
+      "online": false,
+      "time": {
+        "raw": "05:30 PM - 08:30 PM",
+        "start": 1050,
+        "end": 1230
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-af-6-af-3611-05-30-pm-08-30-pm",
+      "sr": 6,
+      "slot": "4",
+      "department": "Management Sciences",
+      "program": "BSAF",
+      "section": "BS(AF)-6",
+      "course": {
+        "code": "AF 3611",
+        "title": "Auditing-II",
+        "credits": "3,0"
+      },
+      "faculty": "Gulfraz Akhtar",
+      "room": "NB-203",
+      "online": false,
+      "time": {
+        "raw": "05:30 PM - 08:30 PM",
+        "start": 1050,
+        "end": 1230
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "4-bs-af-8-af-2306-05-30-pm-08-30-pm",
+      "sr": 7,
+      "slot": "4",
+      "department": "Management Sciences",
+      "program": "BSAF",
+      "section": "BS(AF)-8",
+      "course": {
+        "code": "AF 2306",
+        "title": "Pakistan Economic Policy",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Muhammad Rashid",
+      "room": "105",
+      "online": false,
+      "time": {
+        "raw": "05:30 PM - 08:30 PM",
+        "start": 1050,
+        "end": 1230
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-mspm-1b-mp-te12-advanced-project-management-05-30-pm-08-30-pm",
+      "sr": 8,
+      "slot": "4",
+      "department": "Management Sciences",
+      "program": "MSPM",
+      "section": "MSPM - 1B",
+      "course": {
+        "code": null,
+        "title": "MP TE12 Advanced Project Management",
+        "credits": "3,0"
+      },
+      "faculty": "Muhammad Al-Khayyam",
+      "room": "ORIC Hall",
+      "online": false,
+      "time": {
+        "raw": "05:30 PM - 08:30 PM",
+        "start": 1050,
+        "end": 1230
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-cs-5e-csc-3108-05-00-pm-06-00-pm",
+      "sr": 9,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-5E",
+      "course": {
+        "code": "CSC 3108",
+        "title": "Advanced Database Management Systems",
+        "credits": "2,0"
+      },
+      "faculty": "Zahida . Khalid",
+      "room": "205",
+      "online": false,
+      "time": {
+        "raw": "05:00 PM - 06:00 PM",
+        "start": 1020,
+        "end": 1080
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-cs-5e-cscl-2205-06-00-pm-08-00-pm",
+      "sr": 10,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-5E",
+      "course": {
+        "code": "CSCL 2205",
+        "title": "Lab: Operating Systems",
+        "credits": "0,1"
+      },
+      "faculty": "Muhammad Haris Malik",
+      "room": "Lab 06",
+      "online": false,
+      "time": {
+        "raw": "06:00 PM - 08:00 PM",
+        "start": 1080,
+        "end": 1200
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-cs-7c-csc-4106-05-00-pm-06-30-pm",
+      "sr": 11,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-7C",
+      "course": {
+        "code": "CSC 4106",
+        "title": "Parallel and Distributed Computing",
+        "credits": "3,0"
+      },
+      "faculty": "Fakhar Ul Islam",
+      "room": "202",
+      "online": false,
+      "time": {
+        "raw": "05:00 PM - 06:30 PM",
+        "start": 1020,
+        "end": 1110
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-cs-7c-csc-4102-06-30-pm-08-00-pm",
+      "sr": 12,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-7C",
+      "course": {
+        "code": "CSC 4102",
+        "title": "Professional Practices",
+        "credits": "3,0"
+      },
+      "faculty": "Asma Niaz Awan",
+      "room": "301",
+      "online": false,
+      "time": {
+        "raw": "06:30 PM - 08:00 PM",
+        "start": 1110,
+        "end": 1200
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-cs-7c-csc-4504-08-00-pm-09-30-pm",
+      "sr": 13,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-7C",
+      "course": {
+        "code": "CSC 4504",
+        "title": "Organizational Behavior",
+        "credits": "3,0"
+      },
+      "faculty": "Mussadiq Ali Khan",
+      "room": "301",
+      "online": false,
+      "time": {
+        "raw": "08:00 PM - 09:30 PM",
+        "start": 1200,
+        "end": 1290
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-cs-8a-csc-4201-05-00-pm-06-30-pm",
+      "sr": 14,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-8A",
+      "course": {
+        "code": "CSC 4201",
+        "title": "Information Security",
+        "credits": "3,0"
+      },
+      "faculty": "Amjad Saleem Rana",
+      "room": "302",
+      "online": false,
+      "time": {
+        "raw": "05:00 PM - 06:30 PM",
+        "start": 1020,
+        "end": 1110
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-cs-8a-csc-4722-06-30-pm-08-00-pm",
+      "sr": 15,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-8A",
+      "course": {
+        "code": "CSC 4722",
+        "title": "Introduction to Blockchain Technology",
+        "credits": "3,0"
+      },
+      "faculty": "Shahab Khan",
+      "room": "302",
+      "online": false,
+      "time": {
+        "raw": "06:30 PM - 08:00 PM",
+        "start": 1110,
+        "end": 1200
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-cs-8a-csc-4501-08-00-pm-09-30-pm",
+      "sr": 16,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-8A",
+      "course": {
+        "code": "CSC 4501",
+        "title": "Business and Technology Ethics",
+        "credits": "3,0"
+      },
+      "faculty": "Muhammad Islam",
+      "room": "302",
+      "online": false,
+      "time": {
+        "raw": "08:00 PM - 09:30 PM",
+        "start": 1200,
+        "end": 1290
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-cs-8b-csc-4501-05-00-pm-06-30-pm",
+      "sr": 17,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-8B",
+      "course": {
+        "code": "CSC 4501",
+        "title": "Business and Technology Ethics",
+        "credits": "3,0"
+      },
+      "faculty": "Asma Niaz Awan",
+      "room": "303",
+      "online": false,
+      "time": {
+        "raw": "05:00 PM - 06:30 PM",
+        "start": 1020,
+        "end": 1110
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-cs-8b-csc-4201-06-30-pm-08-00-pm",
+      "sr": 18,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-8B",
+      "course": {
+        "code": "CSC 4201",
+        "title": "Information Security",
+        "credits": "3,0"
+      },
+      "faculty": "Amjad Saleem Rana",
+      "room": "303",
+      "online": false,
+      "time": {
+        "raw": "06:30 PM - 08:00 PM",
+        "start": 1110,
+        "end": 1200
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-cs-8b-csc-4722-08-00-pm-09-30-pm",
+      "sr": 19,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BS(CS)-8B",
+      "course": {
+        "code": "CSC 4722",
+        "title": "Introduction to Blockchain Technology",
+        "credits": "3,0"
+      },
+      "faculty": "Shahab Khan",
+      "room": "303",
+      "online": false,
+      "time": {
+        "raw": "08:00 PM - 09:30 PM",
+        "start": 1200,
+        "end": 1290
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-se-4c-cscl-2203-04-00-pm-06-00-pm",
+      "sr": 20,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-4C",
+      "course": {
+        "code": "CSCL 2203",
+        "title": "Lab: Database Systems",
+        "credits": "0,1"
+      },
+      "faculty": "Jaweria Zameer",
+      "room": "Lab 04",
+      "online": false,
+      "time": {
+        "raw": "04:00 PM - 06:00 PM",
+        "start": 960,
+        "end": 1080
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-se-4c-secl-2407-06-00-pm-08-00-pm",
+      "sr": 21,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-4C",
+      "course": {
+        "code": "SECL 2407",
+        "title": "Lab: Software Requirement Engineering",
+        "credits": "0,1"
+      },
+      "faculty": "Kinza Mazhar",
+      "room": "Lab 03",
+      "online": false,
+      "time": {
+        "raw": "06:00 PM - 08:00 PM",
+        "start": 1080,
+        "end": 1200
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-se-6a-sec-4711-05-00-pm-06-30-pm",
+      "sr": 22,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-6A",
+      "course": {
+        "code": "SEC 4711",
+        "title": "Formal Methods in Software Engineering",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Fadia Shah",
+      "room": "305",
+      "online": false,
+      "time": {
+        "raw": "05:00 PM - 06:30 PM",
+        "start": 1020,
+        "end": 1110
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-se-6a-sec-4516-06-30-pm-08-00-pm",
+      "sr": 23,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-6A",
+      "course": {
+        "code": "SEC 4516",
+        "title": "Artificial Intelligence",
+        "credits": "3,0"
+      },
+      "faculty": "Muhammad Qasim",
+      "room": "305",
+      "online": false,
+      "time": {
+        "raw": "06:30 PM - 08:00 PM",
+        "start": 1110,
+        "end": 1200
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-se-6a-sec-3607-08-00-pm-09-30-pm",
+      "sr": 24,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-6A",
+      "course": {
+        "code": "SEC 3607",
+        "title": "Web Engineering",
+        "credits": "3,0"
+      },
+      "faculty": "Iqra Yasmin",
+      "room": "305",
+      "online": false,
+      "time": {
+        "raw": "08:00 PM - 09:30 PM",
+        "start": 1200,
+        "end": 1290
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-se-6b-sec-3608-05-00-pm-06-30-pm",
+      "sr": 25,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-6B",
+      "course": {
+        "code": "SEC 3608",
+        "title": "Software Quality Engineering and Testing",
+        "credits": "3,0"
+      },
+      "faculty": "Iqra Yasmin",
+      "room": "102",
+      "online": false,
+      "time": {
+        "raw": "05:00 PM - 06:30 PM",
+        "start": 1020,
+        "end": 1110
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-se-6b-sec-4711-06-30-pm-08-00-pm",
+      "sr": 26,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-6B",
+      "course": {
+        "code": "SEC 4711",
+        "title": "Formal Methods in Software Engineering",
+        "credits": "3,0"
+      },
+      "faculty": "Arfa Asaf",
+      "room": "102",
+      "online": false,
+      "time": {
+        "raw": "06:30 PM - 08:00 PM",
+        "start": 1110,
+        "end": 1200
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-se-6b-sec-4516-08-00-pm-09-30-pm",
+      "sr": 27,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-6B",
+      "course": {
+        "code": "SEC 4516",
+        "title": "Artificial Intelligence",
+        "credits": "3,0"
+      },
+      "faculty": "Muhammad Abuzar Chandia",
+      "room": "102",
+      "online": false,
+      "time": {
+        "raw": "08:00 PM - 09:30 PM",
+        "start": 1200,
+        "end": 1290
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-se-7a-sec-4515-05-00-pm-06-30-pm",
+      "sr": 28,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-7A",
+      "course": {
+        "code": "SEC 4515",
+        "title": "Digital Image Processing",
+        "credits": "3,0"
+      },
+      "faculty": "Reema Tariq",
+      "room": "206",
+      "online": false,
+      "time": {
+        "raw": "05:00 PM - 06:30 PM",
+        "start": 1020,
+        "end": 1110
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bs-se-8a-sec-4514-05-00-pm-06-30-pm",
+      "sr": 29,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-8A",
+      "course": {
+        "code": "SEC 4514",
+        "title": "Introduction to Data Science",
+        "credits": "3,0"
+      },
+      "faculty": "Shakeel Ahmad",
+      "room": "NB-204",
+      "online": false,
+      "time": {
+        "raw": "05:00 PM - 06:30 PM",
+        "start": 1020,
+        "end": 1110
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "4-bs-se-8a-sec-3309-06-30-pm-08-00-pm",
+      "sr": 30,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-8A",
+      "course": {
+        "code": "SEC 3309",
+        "title": "Organizational Behavior",
+        "credits": "3,0"
+      },
+      "faculty": "Muhamad Nadeem CS",
+      "room": "NB-204",
+      "online": false,
+      "time": {
+        "raw": "06:30 PM - 08:00 PM",
+        "start": 1110,
+        "end": 1200
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "4-bs-se-8b-sec-3309-05-00-pm-06-30-pm",
+      "sr": 31,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-8B",
+      "course": {
+        "code": "SEC 3309",
+        "title": "Organizational Behavior",
+        "credits": "3,0"
+      },
+      "faculty": "Muhamad Nadeem CS",
+      "room": "NB-206",
+      "online": false,
+      "time": {
+        "raw": "05:00 PM - 06:30 PM",
+        "start": 1020,
+        "end": 1110
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "4-bs-se-8b-sec-4518-06-30-pm-08-00-pm",
+      "sr": 32,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BS(SE)-8B",
+      "course": {
+        "code": "SEC 4518",
+        "title": "Visual Programming",
+        "credits": "3,0"
+      },
+      "faculty": "Khawaja Ammad Badar",
+      "room": "NB-206",
+      "online": false,
+      "time": {
+        "raw": "06:30 PM - 08:00 PM",
+        "start": 1110,
+        "end": 1200
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "4-bsai-5c-aicl-3503-06-00-pm-08-00-pm",
+      "sr": 33,
+      "slot": "4",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-5C",
+      "course": {
+        "code": "AICL 3503",
+        "title": "Lab: Machine Learning",
+        "credits": "0,1"
+      },
+      "faculty": "Ahsan Abbas",
+      "room": "Lab 05",
+      "online": false,
+      "time": {
+        "raw": "06:00 PM - 08:00 PM",
+        "start": 1080,
+        "end": 1200
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bsai-5c-aic-3502-08-00-pm-09-30-pm",
+      "sr": 34,
+      "slot": "4",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-5C",
+      "course": {
+        "code": "AIC 3502",
+        "title": "Knowledge Representation and Reasoning",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Fadia Shah",
+      "room": "202",
+      "online": false,
+      "time": {
+        "raw": "08:00 PM - 09:30 PM",
+        "start": 1200,
+        "end": 1290
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bsai-7a-aic-4805-05-00-pm-06-30-pm",
+      "sr": 35,
+      "slot": "4",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-7A",
+      "course": {
+        "code": "AIC 4805",
+        "title": "Speech Processing",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Saad Malik",
+      "room": "201",
+      "online": false,
+      "time": {
+        "raw": "05:00 PM - 06:30 PM",
+        "start": 1020,
+        "end": 1110
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bsai-7a-csc-4106-06-30-pm-08-00-pm",
+      "sr": 36,
+      "slot": "4",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-7A",
+      "course": {
+        "code": "CSC 4106",
+        "title": "Parallel and Distributed Computing",
+        "credits": "3,0"
+      },
+      "faculty": "Maryam Mir",
+      "room": "206",
+      "online": false,
+      "time": {
+        "raw": "06:30 PM - 08:00 PM",
+        "start": 1110,
+        "end": 1200
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bsai-7b-aic-4805-05-00-pm-06-30-pm",
+      "sr": 37,
+      "slot": "4",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-7B",
+      "course": {
+        "code": "AIC 4805",
+        "title": "Speech Processing",
+        "credits": "3,0"
+      },
+      "faculty": "Hamza Imran",
+      "room": "Hall 1A",
+      "online": false,
+      "time": {
+        "raw": "05:00 PM - 06:30 PM",
+        "start": 1020,
+        "end": 1110
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bsai-7b-csc-4106-06-30-pm-08-00-pm",
+      "sr": 38,
+      "slot": "4",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-7B",
+      "course": {
+        "code": "CSC 4106",
+        "title": "Parallel and Distributed Computing",
+        "credits": "3,0"
+      },
+      "faculty": "Sobia Rasheed Malik",
+      "room": "Lab 02",
+      "online": false,
+      "time": {
+        "raw": "06:30 PM - 08:00 PM",
+        "start": 1110,
+        "end": 1200
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bsai-7b-csc-4102-08-00-pm-09-30-pm",
+      "sr": 39,
+      "slot": "4",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-7B",
+      "course": {
+        "code": "CSC 4102",
+        "title": "Professional Practices",
+        "credits": "3,0"
+      },
+      "faculty": "Saima Akbar",
+      "room": "Lab 02",
+      "online": false,
+      "time": {
+        "raw": "08:00 PM - 09:30 PM",
+        "start": 1200,
+        "end": 1290
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bsai-7c-aic-4605-04-30-pm-06-00-pm",
+      "sr": 40,
+      "slot": "4",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-7C",
+      "course": {
+        "code": "AIC 4605",
+        "title": "Research Report",
+        "credits": "3,0"
+      },
+      "faculty": "Nisar Azim",
+      "room": "NB-208",
+      "online": false,
+      "time": {
+        "raw": "04:30 PM - 06:00 PM",
+        "start": 990,
+        "end": 1080
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "4-bsai-7c-csc-4102-06-00-pm-07-30-pm",
+      "sr": 41,
+      "slot": "4",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-7C",
+      "course": {
+        "code": "CSC 4102",
+        "title": "Professional Practices",
+        "credits": "3,0"
+      },
+      "faculty": "Saima Akbar",
+      "room": "NB-208",
+      "online": false,
+      "time": {
+        "raw": "06:00 PM - 07:30 PM",
+        "start": 1080,
+        "end": 1170
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "4-bsai-7c-aic-4805-07-30-pm-09-00-pm",
+      "sr": 42,
+      "slot": "4",
+      "department": "Robotics & AI",
+      "program": "BS AI",
+      "section": "BSAI-7C",
+      "course": {
+        "code": "AIC 4805",
+        "title": "Speech Processing",
+        "credits": "3,0"
+      },
+      "faculty": "Saqib Tahir",
+      "room": "NB-208",
+      "online": false,
+      "time": {
+        "raw": "07:30 PM - 09:00 PM",
+        "start": 1170,
+        "end": 1260
+      },
+      "campus": "HMB (I-8)"
+    },
+    {
+      "id": "4-ms-cpy-1-section-a-msir-1-msss-1-phd-psychology-1-clp-5110-07-30-pm-08-30-pm",
+      "sr": 43,
+      "slot": "4",
+      "department": "Social Sciences",
+      "program": "MS-CPY 1 -Section A, MSIR 1,MSSS 1 PhD (Psychology) 1",
+      "section": "MS-CPY 1 -Section A, MSIR 1,MSSS 1 PhD (Psychology) 1",
+      "course": {
+        "code": "CLP 5110",
+        "title": "Understanding of Holy Quran-I",
+        "credits": "1,0"
+      },
+      "faculty": "Dilnawaz - Ahmed",
+      "room": "ONLINE",
+      "online": true,
+      "time": {
+        "raw": "07:30 PM - 08:30 PM",
+        "start": 1170,
+        "end": 1230
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-msss-2-ms-cpy-open-msss-open-ss-5110-08-30-pm-09-30pm",
+      "sr": 44,
+      "slot": "4",
+      "department": "Social Sciences",
+      "program": "MSSS 2 MS-CPY - Open MSSS - Open",
+      "section": "MSSS 2 MS-CPY - Open MSSS - Open",
+      "course": {
+        "code": "SS 5110",
+        "title": "Understanding of Holy Quran-II",
+        "credits": "1,0"
+      },
+      "faculty": "Dilnawaz - Ahmed",
+      "room": "ONLINE",
+      "online": true,
+      "time": {
+        "raw": "08:30 PM-09:30PM",
+        "start": 1230,
+        "end": 1290
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bsss-open-ss-4251-05-30-pm-08-30-pm",
+      "sr": 45,
+      "slot": "4",
+      "department": "Social Sciences",
+      "program": "BSSS",
+      "section": "BSSS - Open",
+      "course": {
+        "code": "SS 4251",
+        "title": "Sustainable Development",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Huma Maqsood",
+      "room": "101",
+      "online": false,
+      "time": {
+        "raw": "05:30 PM - 08:30 PM",
+        "start": 1050,
+        "end": 1230
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-mscs-ms-cyber-sec-cys-5332-06-30-pm-09-30-pm",
+      "sr": 46,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "MSCS / MS Cyber Sec",
+      "section": "MSCS / MS Cyber Sec",
+      "course": {
+        "code": "CYS 5332",
+        "title": "Ethical Hacking (3,0) / NSC 5166 Advanced Ethical Hacking",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Maria Zuraiz",
+      "room": "Lab 04",
+      "online": false,
+      "time": {
+        "raw": "06:30 PM - 09:30 PM",
+        "start": 1110,
+        "end": 1290
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-ms-cyber-security-2-cys-5334-06-30-pm-09-30-pm",
+      "sr": 47,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "MSCS / MS Cyber Sec",
+      "section": "MS Cyber Security - 2",
+      "course": {
+        "code": "CYS 5334",
+        "title": "Malware Detection and Analysis",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Muhammad Siraj Rathore",
+      "room": "205",
+      "online": false,
+      "time": {
+        "raw": "06:30 PM - 09:30 PM",
+        "start": 1110,
+        "end": 1290
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-mscs-1a-csc-5105-06-30-pm-09-30-pm",
+      "sr": 48,
+      "slot": "4",
+      "department": "Computer Sciences",
+      "program": "MSCS",
+      "section": "MSCS - 1A",
+      "course": {
+        "code": "CSC 5105",
+        "title": "Research Methodology",
+        "credits": "3,0"
+      },
+      "faculty": "Prof. Dr. Muhammad Usman",
+      "room": "201",
+      "online": false,
+      "time": {
+        "raw": "06:30 PM - 09:30 PM",
+        "start": 1110,
+        "end": 1290
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-ms-data-sci-1a-dsc-5222-06-30-pm-09-30-pm",
+      "sr": 49,
+      "slot": "4",
+      "department": "Robotics & AI",
+      "program": "MS Data Sci",
+      "section": "MS Data Sci - 1A",
+      "course": {
+        "code": "DSC 5222",
+        "title": "Research Methodology",
+        "credits": "3,0"
+      },
+      "faculty": "Prof. Dr. SA",
+      "room": "104",
+      "online": false,
+      "time": {
+        "raw": "06:30 PM - 09:30 PM",
+        "start": 1110,
+        "end": 1290
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-electives-cross-specialization-media-anthropology-05-30-pm-08-30-pm",
+      "sr": 50,
+      "slot": "4",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "Electives/ Cross Specialization",
+      "course": {
+        "code": null,
+        "title": "Media Anthropology",
+        "credits": "3,0"
+      },
+      "faculty": "Shah Abdul Sabooh",
+      "room": "Media Lab",
+      "online": false,
+      "time": {
+        "raw": "05:30 PM - 08:30 PM",
+        "start": 1050,
+        "end": 1230
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bsms-6a-md-4701-05-30-pm-08-30-pm",
+      "sr": 51,
+      "slot": "4",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "BSMS - 6A",
+      "course": {
+        "code": "MD 4701",
+        "title": "State and Nation Building in Pakistan",
+        "credits": "3,0"
+      },
+      "faculty": "Ahmad Nadeem",
+      "room": "TV Studio",
+      "online": false,
+      "time": {
+        "raw": "05:30 PM - 08:30 PM",
+        "start": 1050,
+        "end": 1230
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-film-television-production-major-md-4764-05-30-pm-08-30-pm",
+      "sr": 52,
+      "slot": "4",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "Film & Television Production Major",
+      "course": {
+        "code": "MD 4764",
+        "title": "Production Design",
+        "credits": "3,0"
+      },
+      "faculty": "Aayan Rabbani",
+      "room": "208",
+      "online": false,
+      "time": {
+        "raw": "05:30 PM - 08:30 PM",
+        "start": 1050,
+        "end": 1230
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "4-bsms-3b-md-2428-05-30-pm-08-30-pm",
+      "sr": 53,
+      "slot": "4",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "BSMS - 3B",
+      "course": {
+        "code": "MD 2428",
+        "title": "Introduction to Advertising Strategy",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Muhammad Junaid Ghauri",
+      "room": "306",
+      "online": false,
+      "time": {
+        "raw": "05:30 PM - 08:30 PM",
+        "start": 1050,
+        "end": 1230
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "makeup-bsms-5a-md-3523-08-00-am-11-00-am",
+      "sr": 1,
+      "slot": "makeup",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "BSMS - 5A",
+      "course": {
+        "code": "MD 3523",
+        "title": "Production Practices-II",
+        "credits": "3,0"
+      },
+      "faculty": "Muhammad Arslan Saeed",
+      "room": "203",
+      "online": false,
+      "time": {
+        "raw": "08:00 AM - 11:00 AM",
+        "start": 480,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "makeup-bsms-6a-md-3506-02-00-pm-05-00-pm",
+      "sr": 2,
+      "slot": "makeup",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "BSMS - 6A",
+      "course": {
+        "code": "MD 3506",
+        "title": "Theories of Visual Culture",
+        "credits": "3,0"
+      },
+      "faculty": "Amjad Qamar",
+      "room": "205",
+      "online": false,
+      "time": {
+        "raw": "02:00 PM - 05:00 PM",
+        "start": 840,
+        "end": 1020
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "makeup-bsms-5a-md-2424-02-20-pm-05-20-pm",
+      "sr": 3,
+      "slot": "makeup",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "BSMS-5A",
+      "course": {
+        "code": "MD 2424",
+        "title": "Media Psychology",
+        "credits": null
+      },
+      "faculty": "Faiza Mubeen",
+      "room": "Hall 1B",
+      "online": false,
+      "time": {
+        "raw": "02:20 PM - 05:20 PM",
+        "start": 860,
+        "end": 1040
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "makeup-bsms-4a-md-1123-05-30-pm-08-30-pm",
+      "sr": 4,
+      "slot": "makeup",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "BSMS-4A",
+      "course": {
+        "code": "MD 1123",
+        "title": "Principles of Game Design",
+        "credits": null
+      },
+      "faculty": "Aleem Raza",
+      "room": "Hall 1B",
+      "online": false,
+      "time": {
+        "raw": "05:30 PM - 08:30 PM",
+        "start": 1050,
+        "end": 1230
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "makeup-bsms-5a-md-2423-05-30-pm-08-30-pm",
+      "sr": 5,
+      "slot": "makeup",
+      "department": "Media Sciences",
+      "program": "BS Media",
+      "section": "BSMS-5A",
+      "course": {
+        "code": "MD 2423",
+        "title": "Theatre Project",
+        "credits": null
+      },
+      "faculty": "Salman Nasir",
+      "room": "203",
+      "online": false,
+      "time": {
+        "raw": "05:30 PM - 08:30 PM",
+        "start": 1050,
+        "end": 1230
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "makeup-bsse-4b-cscl-2203-06-00-pm-08-00-pm",
+      "sr": 6,
+      "slot": "makeup",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BSSE 4B",
+      "course": {
+        "code": "CSCL 2203",
+        "title": "Lab: Database Systems",
+        "credits": "0,1"
+      },
+      "faculty": "Jaweria Zameer",
+      "room": "Digital Lab",
+      "online": false,
+      "time": {
+        "raw": "06:00 PM - 08:00 PM",
+        "start": 1080,
+        "end": 1200
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "makeup-bscs-1a-cscl-1103-12-00-pm-02-00-pm",
+      "sr": 7,
+      "slot": "makeup",
+      "department": "Computer Sciences",
+      "program": "BSCS",
+      "section": "BSCS 1A",
+      "course": {
+        "code": "CSCL 1103",
+        "title": "Lab: Fundamentals of Programming",
+        "credits": "0,1"
+      },
+      "faculty": "Muhammad Ishfaq",
+      "room": "Lab 06",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 02:00 PM",
+        "start": 720,
+        "end": 840
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "makeup-bsse-7a-sec-3603-11-00-am-12-30-pm",
+      "sr": 8,
+      "slot": "makeup",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BSSE 7A",
+      "course": {
+        "code": "SEC 3603",
+        "title": "Software Project Management",
+        "credits": "3,0"
+      },
+      "faculty": "Muhammad Qasim",
+      "room": "Lab 02",
+      "online": false,
+      "time": {
+        "raw": "11:00 AM - 12:30 PM",
+        "start": 660,
+        "end": 750
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "makeup-bsse-7a-sec-4515-12-30-pm-02-00-pm",
+      "sr": 9,
+      "slot": "makeup",
+      "department": "Computer Sciences",
+      "program": "BSSE",
+      "section": "BSSE 7A",
+      "course": {
+        "code": "SEC 4515",
+        "title": "Digital Image Processing",
+        "credits": "3,0"
+      },
+      "faculty": "Reema Tariq",
+      "room": "Lab 02",
+      "online": false,
+      "time": {
+        "raw": "12:30 PM - 02:00 PM",
+        "start": 750,
+        "end": 840
+      },
+      "campus": "H-8"
+    }
+  ]
+}
