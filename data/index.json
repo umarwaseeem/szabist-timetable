@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-30T19:33:37.619Z",
-  "latest": "2026-10-31",
+  "updatedAt": "2026-11-16T23:27:37.941Z",
+  "latest": "2026-11-17",
   "days": [
     {
       "date": "2026-10-08",
@@ -73,6 +73,14 @@
       "fetchedAt": "2026-10-30T19:33:37.596Z",
       "classes": 178,
       "file": "days/2026-10-31.json"
+    },
+    {
+      "date": "2026-11-17",
+      "weekday": "Tuesday",
+      "semester": "Fall 2026",
+      "fetchedAt": "2026-11-16T23:27:37.924Z",
+      "classes": 168,
+      "file": "days/2026-11-17.json"
     }
   ]
 }
