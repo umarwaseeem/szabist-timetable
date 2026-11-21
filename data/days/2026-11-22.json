@@ -1,0 +1,1312 @@
+{
+  "date": "2026-11-22",
+  "weekday": "Sunday",
+  "semester": "Fall 2026",
+  "title": "Class Schedule - Sunday, November 22, 2026 (Fall 2026)",
+  "fetchedAt": "2026-11-21T20:36:50.481Z",
+  "source": "https://zabdesk.szabist-isb.edu.pk/ZabNoticeboard/StudentNoticeboard.aspx",
+  "slots": [
+    {
+      "id": "1",
+      "label": "Slot 1",
+      "range": {
+        "start": 540,
+        "end": 720
+      }
+    },
+    {
+      "id": "2",
+      "label": "Slot 2",
+      "range": {
+        "start": 720,
+        "end": 900
+      }
+    },
+    {
+      "id": "3",
+      "label": "Slot 3",
+      "range": {
+        "start": 900,
+        "end": 1080
+      }
+    }
+  ],
+  "classes": [
+    {
+      "id": "1-mba-1-e-36chr-mba-72-4-msms-2-ba-5601-09-00-am-12-00-pm",
+      "sr": 1,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "MBA / MSMS",
+      "section": "MBA-1 E 36CHR / MBA 72(4) / MSMS 2",
+      "course": {
+        "code": "BA 5601",
+        "title": "Strategic Finance",
+        "credits": null
+      },
+      "faculty": "Muhammad Naeem",
+      "room": "203",
+      "online": false,
+      "time": {
+        "raw": "09:00 AM - 12:00 PM",
+        "start": 540,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-mba-1-day-evening-72-chr-ba-5102-09-00-am-12-00-pm",
+      "sr": 2,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "MBA",
+      "section": "MBA-1 (Day/Evening) 72 CHR",
+      "course": {
+        "code": "BA 5102",
+        "title": "Managerial Economics",
+        "credits": null
+      },
+      "faculty": "Dr. Syed Muhammad Usman Masood",
+      "room": "102",
+      "online": false,
+      "time": {
+        "raw": "09:00 AM - 12:00 PM",
+        "start": 540,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-mba-3-day-evening-72-chr-emba-2-ba-5411-09-00-am-12-00-pm",
+      "sr": 3,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "MBA / EMBA",
+      "section": "MBA-3 (Day/Evening) 72 CHR / EMBA 2)",
+      "course": {
+        "code": "BA 5411",
+        "title": "Cost & Management Accounting / BE5203 Managerial Accounting and Control",
+        "credits": null
+      },
+      "faculty": "Muhammad Ali Khan",
+      "room": "101",
+      "online": false,
+      "time": {
+        "raw": "09:00 AM - 12:00 PM",
+        "start": 540,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-emba-3-msms-msba-be-5301-09-00-am-12-00-pm",
+      "sr": 4,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "EMBA / MSMS / MSBA",
+      "section": "EMBA-3 / MSMS / MSBA",
+      "course": {
+        "code": "BE 5301",
+        "title": "Financial Management",
+        "credits": null
+      },
+      "faculty": "Dr. Sanaullah Ansari",
+      "room": "104",
+      "online": false,
+      "time": {
+        "raw": "09:00 AM - 12:00 PM",
+        "start": 540,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-emba-4-be-5404-09-00-am-12-00-pm",
+      "sr": 5,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "EMBA",
+      "section": "EMBA-4",
+      "course": {
+        "code": "BE 5404",
+        "title": "Corporate Governance",
+        "credits": null
+      },
+      "faculty": "Asif Raza",
+      "room": "301",
+      "online": false,
+      "time": {
+        "raw": "09:00 AM - 12:00 PM",
+        "start": 540,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-mhrm-1-2-hr-5231-09-00-am-12-00-pm",
+      "sr": 6,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "MHRM",
+      "section": "MHRM- 1 / 2",
+      "course": {
+        "code": "HR 5231",
+        "title": "Cross Cultural HRM",
+        "credits": "3,0"
+      },
+      "faculty": "Tahir Masood Khan",
+      "room": "ORIC Hall",
+      "online": false,
+      "time": {
+        "raw": "09:00 AM - 12:00 PM",
+        "start": 540,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-mspm-1-a-mp-5329-08-30-am-11-00-am",
+      "sr": 7,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "MSPM",
+      "section": "MSPM-1 A",
+      "course": {
+        "code": "MP 5329",
+        "title": "Project Communication for Stakeholder Management",
+        "credits": "3,0"
+      },
+      "faculty": "Asif Hayat Khan",
+      "room": "Audtiorium",
+      "online": false,
+      "time": {
+        "raw": "08:30 AM - 11:00 AM",
+        "start": 510,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-mspm-open-mp-5318-08-30-am-10-00-am",
+      "sr": 8,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "MSPM",
+      "section": "MSPM Open",
+      "course": {
+        "code": "MP 5318",
+        "title": "Business Analysis",
+        "credits": "3,0"
+      },
+      "faculty": "Shoaib Ali Shah",
+      "room": "Lab 02",
+      "online": false,
+      "time": {
+        "raw": "08:30 AM - 10:00 AM",
+        "start": 510,
+        "end": 600
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-msba-1a-msms-bsa-te07-contemporary-business-strategy-in-the-digital-era-3-0-bsa-5104-strategic-decision-making-09-00-am-12-00-pm",
+      "sr": 9,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "MSBA / MSMS",
+      "section": "MSBA-1A/ MSMS",
+      "course": {
+        "code": null,
+        "title": "BSA TE07 Contemporary Business Strategy in the Digital Era (3,0) / BSA 5104 Strategic Decision Making",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Sundas Azeem",
+      "room": "103",
+      "online": false,
+      "time": {
+        "raw": "09:00 AM - 12:00 PM",
+        "start": 540,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-mpm-2-pm-5159-08-30-am-10-00-am",
+      "sr": 10,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "MPM",
+      "section": "MPM - 2",
+      "course": {
+        "code": "PM 5159",
+        "title": "Project Analytics",
+        "credits": "3,0"
+      },
+      "faculty": "Nadeem Fakhar Malik",
+      "room": "Lab 01",
+      "online": false,
+      "time": {
+        "raw": "08:30 AM - 10:00 AM",
+        "start": 510,
+        "end": 600
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-msba-open-finance-msms-bsa-5322-09-00-am-12-00-pm",
+      "sr": 11,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "MSBA / MSMS",
+      "section": "MSBA Open Finance / MSMS",
+      "course": {
+        "code": "BSA 5322",
+        "title": "Risk Management",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Syed Shafqat Mukarram",
+      "room": "Lab 04",
+      "online": false,
+      "time": {
+        "raw": "09:00 AM - 12:00 PM",
+        "start": 540,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-msba-open-marketing-msms-bsba-5232-09-00-am-12-00-pm",
+      "sr": 12,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "MSBA",
+      "section": "MSBA Open Marketing / MSMS",
+      "course": {
+        "code": "BSBA 5232",
+        "title": "Market Strategy and Forecasting",
+        "credits": null
+      },
+      "faculty": "Tayyab Hameed",
+      "room": "Lab 05",
+      "online": false,
+      "time": {
+        "raw": "09:00 AM - 12:00 PM",
+        "start": 540,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-msba-open-supply-chain-msms-mhrm-bsa-5242-09-00-am-12-00-pm",
+      "sr": 13,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "MSBA / MSMS / MHRM",
+      "section": "MSBA Open Supply Chain / MSMS / MHRM",
+      "course": {
+        "code": "BSA 5242",
+        "title": "HR Analytics (3,0) / HR 5205 HR Metrics and Analytics",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Muhammad Faisal Malik",
+      "room": "Lab 03",
+      "online": false,
+      "time": {
+        "raw": "09:00 AM - 12:00 PM",
+        "start": 540,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-msms-1-leadership-and-motivation-techniques-09-00-am-12-00-pm",
+      "sr": 14,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "MSMS",
+      "section": "MSMS (1)",
+      "course": {
+        "code": null,
+        "title": "Leadership and Motivation Techniques",
+        "credits": null
+      },
+      "faculty": "Dr. Moeen Zaffar",
+      "room": "204",
+      "online": false,
+      "time": {
+        "raw": "09:00 AM - 12:00 PM",
+        "start": 540,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-merged-with-ms-ir-1-msss1-ss-5121-09-00-am-12-00-pm",
+      "sr": 15,
+      "slot": "1",
+      "department": "Social Sciences",
+      "program": "Merged with MS(IR)1 &MSSS1",
+      "section": "Merged with MS(IR)1 &MSSS1",
+      "course": {
+        "code": "SS 5121",
+        "title": "Advanced Research Methods and Techniques-I (Qualitative) (3,0)/IR TE02 Advanced Research Methodology",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Nosherwan Adil",
+      "room": "306",
+      "online": false,
+      "time": {
+        "raw": "09:00 AM - 12:00 PM",
+        "start": 540,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-ms-cpy-1-section-a-clp-5151-09-00-am-12-00-pm",
+      "sr": 16,
+      "slot": "1",
+      "department": "Social Sciences",
+      "program": "MS-CPY 1 - Section A",
+      "section": "MS-CPY 1 - Section A",
+      "course": {
+        "code": "CLP 5151",
+        "title": "Assessment and Diagnosis-I",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Syeda Razia Bukhari",
+      "room": "205",
+      "online": false,
+      "time": {
+        "raw": "09:00 AM - 12:00 PM",
+        "start": 540,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-ms-cpy-1-section-b-clp-5103-09-00-am-12-00-pm",
+      "sr": 17,
+      "slot": "1",
+      "department": "Social Sciences",
+      "program": "MS-CPY 1 - Section A",
+      "section": "MS-CPY 1 - Section B",
+      "course": {
+        "code": "CLP 5103",
+        "title": "Quantitative Research Methods",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Arooj Mujeeb",
+      "room": "206",
+      "online": false,
+      "time": {
+        "raw": "09:00 AM - 12:00 PM",
+        "start": 540,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-ms-cpy-open-clp-5253-09-00-am-12-00-pm",
+      "sr": 18,
+      "slot": "1",
+      "department": "Social Sciences",
+      "program": "MS - CPY Open",
+      "section": "MS - CPY Open",
+      "course": {
+        "code": "CLP 5253",
+        "title": "Advance Forensic Psychology",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Abdur Rashid",
+      "room": "105",
+      "online": false,
+      "time": {
+        "raw": "09:00 AM - 12:00 PM",
+        "start": 540,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-ms-ds-1-tools-and-techniques-in-development-08-30-am-11-30-am",
+      "sr": 19,
+      "slot": "1",
+      "department": "Social Sciences",
+      "program": "MSDS",
+      "section": "MS (DS) - 1",
+      "course": {
+        "code": null,
+        "title": "Tools and Techniques in Development",
+        "credits": null
+      },
+      "faculty": "Dr. Abdul Razzaq Khan",
+      "room": "202",
+      "online": false,
+      "time": {
+        "raw": "08:30 AM - 11:30 AM",
+        "start": 510,
+        "end": 690
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-ms-ds-2-hands-on-development-workshop-08-30-am-11-30-am",
+      "sr": 20,
+      "slot": "1",
+      "department": "Social Sciences",
+      "program": "MSDS",
+      "section": "MS (DS) - 2",
+      "course": {
+        "code": null,
+        "title": "Hands on Development Workshop",
+        "credits": null
+      },
+      "faculty": "External Instructors",
+      "room": "Lab 06",
+      "online": false,
+      "time": {
+        "raw": "08:30 AM - 11:30 AM",
+        "start": 510,
+        "end": 690
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-mms-1-a-understanding-of-holy-quran-i-10-00-am-11-00-am",
+      "sr": 21,
+      "slot": "1",
+      "department": "Media Sciences",
+      "program": "MSMD",
+      "section": "MMS 1 A",
+      "course": {
+        "code": null,
+        "title": "Understanding of Holy Quran I",
+        "credits": null
+      },
+      "faculty": "Masroor Ahmed",
+      "room": "Media Lab",
+      "online": false,
+      "time": {
+        "raw": "10:00 AM - 11:00 AM",
+        "start": 600,
+        "end": 660
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-msms-be-5105-12-00-pm-03-00-pm",
+      "sr": 1,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "MSMS",
+      "section": "MSMS",
+      "course": {
+        "code": "BE 5105",
+        "title": "Quantitative Analysis for Decision Making",
+        "credits": null
+      },
+      "faculty": "Dr. Ayesha Noor",
+      "room": "202",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00 PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-msms-1-bsa-te07-contemporary-business-strategy-in-the-digital-era-12-00-pm-03-00-pm",
+      "sr": 2,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "MSMS",
+      "section": "MSMS 1",
+      "course": {
+        "code": null,
+        "title": "BSA TE07 Contemporary Business Strategy in the Digital Era",
+        "credits": "3,0"
+      },
+      "faculty": "Ali Baig",
+      "room": "204",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00 PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-emba-3-be-5204-12-00-pm-03-00-pm",
+      "sr": 3,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "EMBA",
+      "section": "EMBA-3",
+      "course": {
+        "code": "BE 5204",
+        "title": "Managerial Economics",
+        "credits": null
+      },
+      "faculty": "Dr. Bashir",
+      "room": "103",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00 PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-mba-1-evening-36chr-mba-72-3-ba-5208-12-00-pm-03-00-pm",
+      "sr": 4,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "MBA",
+      "section": "MBA-1 (Evening) 36CHR/ MBA 72(3))",
+      "course": {
+        "code": "BA 5208",
+        "title": "Strategic HRM",
+        "credits": null
+      },
+      "faculty": "Dr. Sundas Azeem",
+      "room": "ORIC Hall",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00 PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-mba-1-day-evening-72-chr-ba-5322-12-00-pm-03-00-pm",
+      "sr": 5,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "MBA",
+      "section": "MBA-1 (Day/Evening) 72 CHR",
+      "course": {
+        "code": "BA 5322",
+        "title": "Financial Accounting for Managers",
+        "credits": null
+      },
+      "faculty": "Muhammad Naeem",
+      "room": "306",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00 PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-mba-2-day-evening-72-chr-ba-5421-12-00-pm-03-00-pm",
+      "sr": 6,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "MBA",
+      "section": "MBA-2 (Day/Evening) 72 CHR",
+      "course": {
+        "code": "BA 5421",
+        "title": "Corporate Legal and Regulatory Affairs",
+        "credits": null
+      },
+      "faculty": "Shuaib Ahmed",
+      "room": "104",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00 PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-mpm-1-pm-5114-12-00-pm-03-00-pm",
+      "sr": 7,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "MPM",
+      "section": "MPM - 1",
+      "course": {
+        "code": "PM 5114",
+        "title": "Project Scope and Scheduling Management",
+        "credits": "3,0"
+      },
+      "faculty": "Asif Hayat Khan",
+      "room": "105",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00 PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-mpm-2-pm-5162-12-00-pm-03-00-pm",
+      "sr": 8,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "MPM",
+      "section": "MPM - 2",
+      "course": {
+        "code": "PM 5162",
+        "title": "Telecom Project Management",
+        "credits": "3,0"
+      },
+      "faculty": "Amees Ahmad",
+      "room": "203",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00 PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-mspm-1a-mp-te12-advanced-project-management-12-00-pm-03-00-pm",
+      "sr": 9,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "MSPM",
+      "section": "MSPM-1A",
+      "course": {
+        "code": null,
+        "title": "MP TE12 Advanced Project Management",
+        "credits": "3,0"
+      },
+      "faculty": "Muhammad Al-Khayyam",
+      "room": "Audtiorium",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00 PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-mspm-2a-mp-te03-ai-in-project-management-12-00-pm-03-00-pm",
+      "sr": 10,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "MSPM",
+      "section": "MSPM-2A",
+      "course": {
+        "code": null,
+        "title": "MP TE03 AI in Project Management",
+        "credits": "3,0"
+      },
+      "faculty": "Aaqib Javed",
+      "room": "Lab 02",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00 PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-mspm-open-mp-5325-12-00-pm-03-00-pm",
+      "sr": 11,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "MSPM",
+      "section": "MSPM Open",
+      "course": {
+        "code": "MP 5325",
+        "title": "Project Simulation",
+        "credits": "3,0"
+      },
+      "faculty": "Nadeem Fakhar Malik",
+      "room": "Lab 01",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00 PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-mspm-open-3a-3b-mp-te02-project-change-and-integration-management-12-00-pm-03-00-pm",
+      "sr": 12,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "MSPM",
+      "section": "MSPM Open 3A / 3B",
+      "course": {
+        "code": null,
+        "title": "MP TE02 Project Change and Integration Management",
+        "credits": "3,0"
+      },
+      "faculty": "Muhammad Ijaz Minhas",
+      "room": "102",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00 PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-mhrm-1-2-hr-5205-12-00-pm-03-00-pm",
+      "sr": 13,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "MHRM",
+      "section": "MHRM- 1 / 2",
+      "course": {
+        "code": "HR 5205",
+        "title": "HR Metrics and Analytics",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Muhammad Faisal Malik",
+      "room": "Digital Lab",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00 PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-zero-semester-msba-1-msms-business-statistics-and-analytics-bsa-5102-mathematics-and-statistics-12-00-pm-03-00-pm",
+      "sr": 14,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "MSBA",
+      "section": "Zero Semester MSBA 1/ MSMS",
+      "course": {
+        "code": null,
+        "title": "Business Statistics and Analytics / BSA 5102 Mathematics and Statistics",
+        "credits": null
+      },
+      "faculty": "Qammar Abbas",
+      "room": "Lab 05",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00 PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-msba-1a-bsa-te05-business-analytics-tools-3-0-bsa-5105-business-analytics-tools-i-12-00-pm-03-00-pm",
+      "sr": 15,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "MSBA",
+      "section": "MSBA-1A",
+      "course": {
+        "code": null,
+        "title": "BSA TE05 Business Analytics Tools (3,0) / BSA 5105 Business Analytics Tools-I",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Ahmed Ali Qureshi",
+      "room": "Lab 06",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00 PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-msba-2a-bsa-5205-12-00-pm-03-00-pm",
+      "sr": 16,
+      "slot": "2",
+      "department": "Management Sciences",
+      "program": "MSBA",
+      "section": "MSBA-2A",
+      "course": {
+        "code": "BSA 5205",
+        "title": "Business Analytics Tools-II",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Syed Shafqat Mukarram",
+      "room": "Lab 04",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00 PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-ms-ir-msss-ss-5438-12-00-pm-03-00pm",
+      "sr": 17,
+      "slot": "2",
+      "department": "Social Sciences",
+      "program": "MS(IR) &MSSS",
+      "section": "MS(IR) &MSSS",
+      "course": {
+        "code": "SS 5438",
+        "title": "Foreign Policy of Pakistan (3,0)/IR TE04 Human Rights in International Perspective",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Syed Adnan Ali Shah Bukhari",
+      "room": "205",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-ms-cpy-1-section-a-clp-5103-12-00-pm-03-00pm",
+      "sr": 18,
+      "slot": "2",
+      "department": "Social Sciences",
+      "program": "MS-CPY 1 - Section A",
+      "section": "MS-CPY 1 - Section A",
+      "course": {
+        "code": "CLP 5103",
+        "title": "Quantitative Research Methods",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Arooj Mujeeb",
+      "room": "206",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-ms-cpy-1-section-b-clp-5151-12-00-pm-03-00pm",
+      "sr": 19,
+      "slot": "2",
+      "department": "Social Sciences",
+      "program": "MS-CPY 1 - Section B",
+      "section": "MS-CPY 1 - Section B",
+      "course": {
+        "code": "CLP 5151",
+        "title": "Assessment and Diagnosis-I",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Syeda Razia Bukhari",
+      "room": "301",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-ms-ds-1-hands-on-development-workshop-11-30-pm-02-30-pm",
+      "sr": 20,
+      "slot": "2",
+      "department": "Social Sciences",
+      "program": "MSDS",
+      "section": "MS (DS) - 1",
+      "course": {
+        "code": null,
+        "title": "Hands on Development Workshop",
+        "credits": null
+      },
+      "faculty": "External Instructors",
+      "room": "Lab 03 / 208",
+      "online": false,
+      "time": {
+        "raw": "11:30 PM - 02:30 PM",
+        "start": 1410,
+        "end": 870
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-ms-ds-2-climate-change-theory-to-practice-11-30-pm-02-30-pm",
+      "sr": 21,
+      "slot": "2",
+      "department": "Social Sciences",
+      "program": "MSDS",
+      "section": "MS (DS) - 2",
+      "course": {
+        "code": null,
+        "title": "Climate Change Theory to Practice",
+        "credits": null
+      },
+      "faculty": "Dr. Asif Javid",
+      "room": "302",
+      "online": false,
+      "time": {
+        "raw": "11:30 PM - 02:30 PM",
+        "start": 1410,
+        "end": 870
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-ms-cpy-open-clp-5154-12-00-pm-03-00pm",
+      "sr": 22,
+      "slot": "2",
+      "department": "Social Sciences",
+      "program": "MS - CPY Open",
+      "section": "MS - CPY Open",
+      "course": {
+        "code": "CLP 5154",
+        "title": "Child Psychology",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Muhammad Saifullah Qureshi",
+      "room": "303",
+      "online": false,
+      "time": {
+        "raw": "12:00 PM - 03:00PM",
+        "start": 720,
+        "end": 900
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-mms-zero-md-2323-11-00-am-02-00-pm",
+      "sr": 23,
+      "slot": "2",
+      "department": "Media Sciences",
+      "program": "MSMD",
+      "section": "MMS Zero",
+      "course": {
+        "code": "MD 2323",
+        "title": "Production Practice 1",
+        "credits": null
+      },
+      "faculty": "Dr. Naveed Ullah Hashmi",
+      "room": "TV Studio",
+      "online": false,
+      "time": {
+        "raw": "11:00 AM - 02:00 PM",
+        "start": 660,
+        "end": 840
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-mms-1-a-mms-5101-11-00-am-02-00-pm",
+      "sr": 24,
+      "slot": "2",
+      "department": "Media Sciences",
+      "program": "MSMD",
+      "section": "MMS 1 A",
+      "course": {
+        "code": "MMS 5101",
+        "title": "Applied Media Research",
+        "credits": null
+      },
+      "faculty": "Dr. Zafar Iqbal",
+      "room": "Media Lab",
+      "online": false,
+      "time": {
+        "raw": "11:00 AM - 02:00 PM",
+        "start": 660,
+        "end": 840
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-msmd-open-mms-5243-11-00-am-02-00-pm",
+      "sr": 25,
+      "slot": "2",
+      "department": "Media Sciences",
+      "program": "MSMD",
+      "section": "MSMD Open",
+      "course": {
+        "code": "MMS 5243",
+        "title": "Multi-Format News Reporting",
+        "credits": "3,0"
+      },
+      "faculty": "Kamran Khan",
+      "room": "FM Radio",
+      "online": false,
+      "time": {
+        "raw": "11:00 AM - 02:00 PM",
+        "start": 660,
+        "end": 840
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "2-msmd-5537-11-00-am-02-00-pm",
+      "sr": 26,
+      "slot": "2",
+      "department": "Media Sciences",
+      "program": "MSMD",
+      "section": null,
+      "course": {
+        "code": "MSMD 5537",
+        "title": "- Advanced Integrated Marketing Communication",
+        "credits": "3,0"
+      },
+      "faculty": "Abeerah Mehreen",
+      "room": "305",
+      "online": false,
+      "time": {
+        "raw": "11:00 AM - 02:00 PM",
+        "start": 660,
+        "end": 840
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-mpm-1-pm-5112-03-00-pm-06-00-pm",
+      "sr": 1,
+      "slot": "3",
+      "department": "Management Sciences",
+      "program": "MPM",
+      "section": "MPM - 1",
+      "course": {
+        "code": "PM 5112",
+        "title": "Organizational Project Management",
+        "credits": "3,0"
+      },
+      "faculty": "Bilal Ahmad",
+      "room": "Lab 03",
+      "online": false,
+      "time": {
+        "raw": "03:00 PM - 06:00 PM",
+        "start": 900,
+        "end": 1080
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-emba-2-pmba-2-be-5206-03-00-pm-06-00-pm",
+      "sr": 2,
+      "slot": "3",
+      "department": "Management Sciences",
+      "program": "EMBA",
+      "section": "EMBA-2 / PMBA-2",
+      "course": {
+        "code": "BE 5206",
+        "title": "Organizational Behaviour",
+        "credits": null
+      },
+      "faculty": "Dr. Sundas Azeem",
+      "room": "103",
+      "online": false,
+      "time": {
+        "raw": "03:00 PM - 06:00 PM",
+        "start": 900,
+        "end": 1080
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-mspm-open-mp-5205-03-00-pm-06-00-pm",
+      "sr": 3,
+      "slot": "3",
+      "department": "Management Sciences",
+      "program": "MSPM",
+      "section": "MSPM Open",
+      "course": {
+        "code": "MP 5205",
+        "title": "Theories of Management",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Muhammad Shafiq",
+      "room": "Lab 02",
+      "online": false,
+      "time": {
+        "raw": "03:00 PM - 06:00 PM",
+        "start": 900,
+        "end": 1080
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-msba-msms-zero-mba-72-4-be-5102-03-00-pm-06-00-pm",
+      "sr": 4,
+      "slot": "3",
+      "department": "Management Sciences",
+      "program": "MSBA / MSMS / MBA",
+      "section": "MSBA / MSMS Zero / MBA 72 - 4",
+      "course": {
+        "code": "BE 5102",
+        "title": "Business Management / Strategic Management",
+        "credits": null
+      },
+      "faculty": "Dr. Salman",
+      "room": "102",
+      "online": false,
+      "time": {
+        "raw": "03:00 PM - 06:00 PM",
+        "start": 900,
+        "end": 1080
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-mba-2-day-evening-72-chr-ba-5424-03-00-pm-06-00-pm",
+      "sr": 5,
+      "slot": "3",
+      "department": "Management Sciences",
+      "program": "MBA",
+      "section": "MBA-2 (Day/Evening) 72 CHR",
+      "course": {
+        "code": "BA 5424",
+        "title": "Macroeconomics & Global Business Environment",
+        "credits": null
+      },
+      "faculty": "Dr. Syed Muhammad Usman Masood",
+      "room": "Lab 05",
+      "online": false,
+      "time": {
+        "raw": "03:00 PM - 06:00 PM",
+        "start": 900,
+        "end": 1080
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-ms-ds-2-ms-ds-3-ds-5419-03-30-pm-06-30-pm",
+      "sr": 6,
+      "slot": "3",
+      "department": "Social Sciences",
+      "program": "MSDS",
+      "section": "MS (DS) - 2 /MS (DS) - 3",
+      "course": {
+        "code": "DS 5419",
+        "title": "Resilience and Vulnerability Assessment",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Abdul Razzaq Khan",
+      "room": "205",
+      "online": false,
+      "time": {
+        "raw": "03:30 PM - 06:30 PM",
+        "start": 930,
+        "end": 1110
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-ms-ds-1-ds-5114-03-30-pm-04-30-pm",
+      "sr": 7,
+      "slot": "3",
+      "department": "Social Sciences",
+      "program": "MSDS",
+      "section": "MS (DS) - 1",
+      "course": {
+        "code": "DS 5114",
+        "title": "Understanding of Holy Quran-I",
+        "credits": "1,0"
+      },
+      "faculty": "Mashta Ansari",
+      "room": "101",
+      "online": false,
+      "time": {
+        "raw": "03:30 PM - 04:30 PM",
+        "start": 930,
+        "end": 990
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-ms-ds-2-understanding-of-holy-quran-ii-02-30-pm-03-30-pm",
+      "sr": 8,
+      "slot": "3",
+      "department": "Social Sciences",
+      "program": "MSDS",
+      "section": "MS (DS) - 2",
+      "course": {
+        "code": null,
+        "title": "Understanding of Holy Quran_II",
+        "credits": null
+      },
+      "faculty": "Mashta Ansari",
+      "room": "101",
+      "online": false,
+      "time": {
+        "raw": "02:30 PM - 03:30 PM",
+        "start": 870,
+        "end": 930
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-mms-zero-md-3505-02-00-pm-05-00-pm",
+      "sr": 9,
+      "slot": "3",
+      "department": "Media Sciences",
+      "program": "MSMD",
+      "section": "MMS Zero",
+      "course": {
+        "code": "MD 3505",
+        "title": "Principles of Journalism",
+        "credits": null
+      },
+      "faculty": "Dr. Haroon Elahi",
+      "room": "TV Studio",
+      "online": false,
+      "time": {
+        "raw": "02:00 PM - 05:00 PM",
+        "start": 840,
+        "end": 1020
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-mms-1-a-mms-5102-02-00-pm-05-00-pm",
+      "sr": 10,
+      "slot": "3",
+      "department": "Media Sciences",
+      "program": "MSMD",
+      "section": "MMS 1 A",
+      "course": {
+        "code": "MMS 5102",
+        "title": "Digital Culture & Society",
+        "credits": null
+      },
+      "faculty": "Dr. M. Riaz Adil",
+      "room": "Media Lab",
+      "online": false,
+      "time": {
+        "raw": "02:00 PM - 05:00 PM",
+        "start": 840,
+        "end": 1020
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "3-msmd-5533-02-00-pm-05-00-pm",
+      "sr": 11,
+      "slot": "3",
+      "department": "Media Sciences",
+      "program": "MSMD",
+      "section": null,
+      "course": {
+        "code": "MSMD 5533",
+        "title": "Copywriting and Advertising Conceptualization",
+        "credits": "3,0"
+      },
+      "faculty": "Dr. Muhammad Ali",
+      "room": "305",
+      "online": false,
+      "time": {
+        "raw": "02:00 PM - 05:00 PM",
+        "start": 840,
+        "end": 1020
+      },
+      "campus": "H-8"
+    }
+  ]
+}
