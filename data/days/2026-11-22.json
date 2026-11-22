@@ -3,7 +3,7 @@
   "weekday": "Sunday",
   "semester": "Fall 2026",
   "title": "Class Schedule - Sunday, November 22, 2026 (Fall 2026)",
-  "fetchedAt": "2026-11-21T20:36:50.481Z",
+  "fetchedAt": "2026-11-22T09:37:04.709Z",
   "source": "https://zabdesk.szabist-isb.edu.pk/ZabNoticeboard/StudentNoticeboard.aspx",
   "slots": [
     {
@@ -45,7 +45,7 @@
         "credits": null
       },
       "faculty": "Muhammad Naeem",
-      "room": "203",
+      "room": "Cancelled 21-11-2026",
       "online": false,
       "time": {
         "raw": "09:00 AM - 12:00 PM",
@@ -155,7 +155,7 @@
         "credits": "3,0"
       },
       "faculty": "Tahir Masood Khan",
-      "room": "ORIC Hall",
+      "room": "303",
       "online": false,
       "time": {
         "raw": "09:00 AM - 12:00 PM",
@@ -209,8 +209,30 @@
       "campus": "H-8"
     },
     {
-      "id": "1-msba-1a-msms-bsa-te07-contemporary-business-strategy-in-the-digital-era-3-0-bsa-5104-strategic-decision-making-09-00-am-12-00-pm",
+      "id": "1-mpm-2-pm-5208-10-00-pm-12-00-pm",
       "sr": 9,
+      "slot": "1",
+      "department": "Management Sciences",
+      "program": "MPM",
+      "section": "MPM - 2",
+      "course": {
+        "code": "PM 5208",
+        "title": "Capstone Project",
+        "credits": "3,0"
+      },
+      "faculty": "Amer Riaz Qureshi",
+      "room": null,
+      "online": false,
+      "time": {
+        "raw": "10:00 PM - 12:00 PM",
+        "start": 1320,
+        "end": 720
+      },
+      "campus": "H-8"
+    },
+    {
+      "id": "1-msba-1a-msms-bsa-te07-contemporary-business-strategy-in-the-digital-era-3-0-bsa-5104-strategic-decision-making-09-00-am-12-00-pm",
+      "sr": 10,
       "slot": "1",
       "department": "Management Sciences",
       "program": "MSBA / MSMS",
@@ -221,7 +243,7 @@
         "credits": "3,0"
       },
       "faculty": "Dr. Sundas Azeem",
-      "room": "103",
+      "room": "ORIC Hall",
       "online": false,
       "time": {
         "raw": "09:00 AM - 12:00 PM",
@@ -232,7 +254,7 @@
     },
     {
       "id": "1-mpm-2-pm-5159-08-30-am-10-00-am",
-      "sr": 10,
+      "sr": 11,
       "slot": "1",
       "department": "Management Sciences",
       "program": "MPM",
@@ -254,7 +276,7 @@
     },
     {
       "id": "1-msba-open-finance-msms-bsa-5322-09-00-am-12-00-pm",
-      "sr": 11,
+      "sr": 12,
       "slot": "1",
       "department": "Management Sciences",
       "program": "MSBA / MSMS",
@@ -276,7 +298,7 @@
     },
     {
       "id": "1-msba-open-marketing-msms-bsba-5232-09-00-am-12-00-pm",
-      "sr": 12,
+      "sr": 13,
       "slot": "1",
       "department": "Management Sciences",
       "program": "MSBA",
@@ -298,7 +320,7 @@
     },
     {
       "id": "1-msba-open-supply-chain-msms-mhrm-bsa-5242-09-00-am-12-00-pm",
-      "sr": 13,
+      "sr": 14,
       "slot": "1",
       "department": "Management Sciences",
       "program": "MSBA / MSMS / MHRM",
@@ -320,7 +342,7 @@
     },
     {
       "id": "1-msms-1-leadership-and-motivation-techniques-09-00-am-12-00-pm",
-      "sr": 14,
+      "sr": 15,
       "slot": "1",
       "department": "Management Sciences",
       "program": "MSMS",
@@ -342,7 +364,7 @@
     },
     {
       "id": "1-merged-with-ms-ir-1-msss1-ss-5121-09-00-am-12-00-pm",
-      "sr": 15,
+      "sr": 16,
       "slot": "1",
       "department": "Social Sciences",
       "program": "Merged with MS(IR)1 &MSSS1",
@@ -364,7 +386,7 @@
     },
     {
       "id": "1-ms-cpy-1-section-a-clp-5151-09-00-am-12-00-pm",
-      "sr": 16,
+      "sr": 17,
       "slot": "1",
       "department": "Social Sciences",
       "program": "MS-CPY 1 - Section A",
@@ -386,7 +408,7 @@
     },
     {
       "id": "1-ms-cpy-1-section-b-clp-5103-09-00-am-12-00-pm",
-      "sr": 17,
+      "sr": 18,
       "slot": "1",
       "department": "Social Sciences",
       "program": "MS-CPY 1 - Section A",
@@ -408,7 +430,7 @@
     },
     {
       "id": "1-ms-cpy-open-clp-5253-09-00-am-12-00-pm",
-      "sr": 18,
+      "sr": 19,
       "slot": "1",
       "department": "Social Sciences",
       "program": "MS - CPY Open",
@@ -430,7 +452,7 @@
     },
     {
       "id": "1-ms-ds-1-tools-and-techniques-in-development-08-30-am-11-30-am",
-      "sr": 19,
+      "sr": 20,
       "slot": "1",
       "department": "Social Sciences",
       "program": "MSDS",
@@ -452,7 +474,7 @@
     },
     {
       "id": "1-ms-ds-2-hands-on-development-workshop-08-30-am-11-30-am",
-      "sr": 20,
+      "sr": 21,
       "slot": "1",
       "department": "Social Sciences",
       "program": "MSDS",
@@ -474,7 +496,7 @@
     },
     {
       "id": "1-mms-1-a-understanding-of-holy-quran-i-10-00-am-11-00-am",
-      "sr": 21,
+      "sr": 22,
       "slot": "1",
       "department": "Media Sciences",
       "program": "MSMD",
@@ -595,7 +617,7 @@
         "credits": null
       },
       "faculty": "Muhammad Naeem",
-      "room": "306",
+      "room": "Cancelled 21-11-2026",
       "online": false,
       "time": {
         "raw": "12:00 PM - 03:00 PM",

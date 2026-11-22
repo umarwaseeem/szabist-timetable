@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T20:36:50.500Z",
+  "updatedAt": "2026-11-22T09:37:04.723Z",
   "latest": "2026-11-22",
   "days": [
     {
@@ -110,8 +110,8 @@
       "date": "2026-11-22",
       "weekday": "Sunday",
       "semester": "Fall 2026",
-      "fetchedAt": "2026-11-21T20:36:50.481Z",
-      "classes": 58,
+      "fetchedAt": "2026-11-22T09:37:04.709Z",
+      "classes": 59,
       "file": "days/2026-11-22.json"
     }
   ]
